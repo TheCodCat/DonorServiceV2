@@ -1,0 +1,177 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\VisualStudio\\DonorService\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A9B83AFA-179E-47A8-9D29-399E6BE2D10F}|DonorService\\DonorService.csproj|e:\\visualstudio\\donorservice\\donorservice\\controllers\\auth\\authorizationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9B83AFA-179E-47A8-9D29-399E6BE2D10F}|DonorService\\DonorService.csproj|solutionrelative:donorservice\\controllers\\auth\\authorizationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9B83AFA-179E-47A8-9D29-399E6BE2D10F}|DonorService\\DonorService.csproj|e:\\visualstudio\\donorservice\\donorservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9B83AFA-179E-47A8-9D29-399E6BE2D10F}|DonorService\\DonorService.csproj|solutionrelative:donorservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{526B7D03-A40D-4D1D-96A9-09903BEF2030}|Database\\Database.csproj|e:\\visualstudio\\donorservice\\database\\diliverycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{526B7D03-A40D-4D1D-96A9-09903BEF2030}|Database\\Database.csproj|solutionrelative:database\\diliverycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9234C712-C1B1-4FBB-9146-123160612AB5}|Models\\Models.csproj|e:\\visualstudio\\donorservice\\models\\models\\anazlysis.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9234C712-C1B1-4FBB-9146-123160612AB5}|Models\\Models.csproj|solutionrelative:models\\models\\anazlysis.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9234C712-C1B1-4FBB-9146-123160612AB5}|Models\\Models.csproj|e:\\visualstudio\\donorservice\\models\\models\\diliverypoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9234C712-C1B1-4FBB-9146-123160612AB5}|Models\\Models.csproj|solutionrelative:models\\models\\diliverypoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9234C712-C1B1-4FBB-9146-123160612AB5}|Models\\Models.csproj|e:\\visualstudio\\donorservice\\models\\models\\record.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9234C712-C1B1-4FBB-9146-123160612AB5}|Models\\Models.csproj|solutionrelative:models\\models\\record.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{526B7D03-A40D-4D1D-96A9-09903BEF2030}|Database\\Database.csproj|e:\\visualstudio\\donorservice\\database\\database.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{526B7D03-A40D-4D1D-96A9-09903BEF2030}|Database\\Database.csproj|solutionrelative:database\\database.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9234C712-C1B1-4FBB-9146-123160612AB5}|Models\\Models.csproj|e:\\visualstudio\\donorservice\\models\\models\\donor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9234C712-C1B1-4FBB-9146-123160612AB5}|Models\\Models.csproj|solutionrelative:models\\models\\donor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9B83AFA-179E-47A8-9D29-399E6BE2D10F}|DonorService\\DonorService.csproj|e:\\visualstudio\\donorservice\\donorservice\\donorservice.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{A9B83AFA-179E-47A8-9D29-399E6BE2D10F}|DonorService\\DonorService.csproj|solutionrelative:donorservice\\donorservice.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\VisualStudio\\DonorService\\DonorService\\Program.cs",
+              "RelativeDocumentMoniker": "DonorService\\Program.cs",
+              "ToolTip": "E:\\VisualStudio\\DonorService\\DonorService\\Program.cs",
+              "RelativeToolTip": "DonorService\\Program.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAjwCAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T10:45:52.581Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AuthorizationController.cs",
+              "DocumentMoniker": "E:\\VisualStudio\\DonorService\\DonorService\\Controllers\\Auth\\AuthorizationController.cs",
+              "RelativeDocumentMoniker": "DonorService\\Controllers\\Auth\\AuthorizationController.cs",
+              "ToolTip": "E:\\VisualStudio\\DonorService\\DonorService\\Controllers\\Auth\\AuthorizationController.cs",
+              "RelativeToolTip": "DonorService\\Controllers\\Auth\\AuthorizationController.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAB8AAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T10:21:58.717Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Database",
+              "DocumentMoniker": "E:\\VisualStudio\\DonorService\\Database\\Database.csproj",
+              "RelativeDocumentMoniker": "Database\\Database.csproj",
+              "ToolTip": "E:\\VisualStudio\\DonorService\\Database\\Database.csproj",
+              "RelativeToolTip": "Database\\Database.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-06-05T10:19:32.308Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Record.cs",
+              "DocumentMoniker": "E:\\VisualStudio\\DonorService\\Models\\Models\\Record.cs",
+              "RelativeDocumentMoniker": "Models\\Models\\Record.cs",
+              "ToolTip": "E:\\VisualStudio\\DonorService\\Models\\Models\\Record.cs",
+              "RelativeToolTip": "Models\\Models\\Record.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T10:14:17.959Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Donor.cs",
+              "DocumentMoniker": "E:\\VisualStudio\\DonorService\\Models\\Models\\Donor.cs",
+              "RelativeDocumentMoniker": "Models\\Models\\Donor.cs",
+              "ToolTip": "E:\\VisualStudio\\DonorService\\Models\\Models\\Donor.cs",
+              "RelativeToolTip": "Models\\Models\\Donor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T10:14:09.444Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DiliveryPoint.cs",
+              "DocumentMoniker": "E:\\VisualStudio\\DonorService\\Models\\Models\\DiliveryPoint.cs",
+              "RelativeDocumentMoniker": "Models\\Models\\DiliveryPoint.cs",
+              "ToolTip": "E:\\VisualStudio\\DonorService\\Models\\Models\\DiliveryPoint.cs",
+              "RelativeToolTip": "Models\\Models\\DiliveryPoint.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T10:14:07.633Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Anazlysis.cs",
+              "DocumentMoniker": "E:\\VisualStudio\\DonorService\\Models\\Models\\Anazlysis.cs",
+              "RelativeDocumentMoniker": "Models\\Models\\Anazlysis.cs",
+              "ToolTip": "E:\\VisualStudio\\DonorService\\Models\\Models\\Anazlysis.cs",
+              "RelativeToolTip": "Models\\Models\\Anazlysis.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T10:14:07.201Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "DonorService",
+              "DocumentMoniker": "E:\\VisualStudio\\DonorService\\DonorService\\DonorService.csproj",
+              "RelativeDocumentMoniker": "DonorService\\DonorService.csproj",
+              "ToolTip": "E:\\VisualStudio\\DonorService\\DonorService\\DonorService.csproj",
+              "RelativeToolTip": "DonorService\\DonorService.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-06-05T10:13:41.603Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DiliveryContext.cs",
+              "DocumentMoniker": "E:\\VisualStudio\\DonorService\\Database\\DiliveryContext.cs",
+              "RelativeDocumentMoniker": "Database\\DiliveryContext.cs",
+              "ToolTip": "E:\\VisualStudio\\DonorService\\Database\\DiliveryContext.cs",
+              "RelativeToolTip": "Database\\DiliveryContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T10:10:25.473Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
