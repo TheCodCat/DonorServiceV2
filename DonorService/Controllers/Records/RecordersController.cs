@@ -25,7 +25,7 @@ namespace DonorService.Controllers.Records
 
         [HttpGet("/GetRecords")]
         [EndpointSummary("Получение всех записей")]
-        public async Task<ActionResult> GetAllRecords()
+        public async Task<IEnumerable<Record>> GetAllRecords()
         {
             var records = diliveryContext.Records.
                 Include(x => x.Donor)
@@ -33,7 +33,17 @@ namespace DonorService.Controllers.Records
                 .OrderBy(x => x.Id)
                 .ToList();
 
-            return Ok(records);
+            return records;
+        }
+
+        [HttpPost("/GetDonorRecords")]
+        [EndpointSummary("получение записей донора")]
+        [EndpointDescription("получение всех записей определенного донора")]
+        public async Task<IEnumerable<Record>> GetDonorRecords([FromHeader] int donorId)
+        {
+            var records = diliveryContext.Records.Include(x => x.Donor).Include(x => x.DiliveryPoint).Where(x => x.DonorId == donorId);
+
+            return records;
         }
     }
 }
