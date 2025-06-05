@@ -3,6 +3,30 @@
   "WorkspaceRootPath": "E:\\VisualStudio\\DonorService\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A9B83AFA-179E-47A8-9D29-399E6BE2D10F}|DonorService\\DonorService.csproj|e:\\visualstudio\\donorservice\\donorservice\\controllers\\editingprofile\\editingprofilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9B83AFA-179E-47A8-9D29-399E6BE2D10F}|DonorService\\DonorService.csproj|solutionrelative:donorservice\\controllers\\editingprofile\\editingprofilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9234C712-C1B1-4FBB-9146-123160612AB5}|Models\\Models.csproj|e:\\visualstudio\\donorservice\\models\\models\\donor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9234C712-C1B1-4FBB-9146-123160612AB5}|Models\\Models.csproj|solutionrelative:models\\models\\donor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9234C712-C1B1-4FBB-9146-123160612AB5}|Models\\Models.csproj|e:\\visualstudio\\donorservice\\models\\models\\record.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9234C712-C1B1-4FBB-9146-123160612AB5}|Models\\Models.csproj|solutionrelative:models\\models\\record.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{526B7D03-A40D-4D1D-96A9-09903BEF2030}|Database\\Database.csproj|e:\\visualstudio\\donorservice\\database\\database.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{526B7D03-A40D-4D1D-96A9-09903BEF2030}|Database\\Database.csproj|solutionrelative:database\\database.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9B83AFA-179E-47A8-9D29-399E6BE2D10F}|DonorService\\DonorService.csproj|e:\\visualstudio\\donorservice\\donorservice\\controllers\\auth\\authorizationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9B83AFA-179E-47A8-9D29-399E6BE2D10F}|DonorService\\DonorService.csproj|solutionrelative:donorservice\\controllers\\auth\\authorizationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9B83AFA-179E-47A8-9D29-399E6BE2D10F}|DonorService\\DonorService.csproj|e:\\visualstudio\\donorservice\\donorservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9B83AFA-179E-47A8-9D29-399E6BE2D10F}|DonorService\\DonorService.csproj|solutionrelative:donorservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A9B83AFA-179E-47A8-9D29-399E6BE2D10F}|DonorService\\DonorService.csproj|e:\\visualstudio\\donorservice\\donorservice\\controllers\\records\\recorderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A9B83AFA-179E-47A8-9D29-399E6BE2D10F}|DonorService\\DonorService.csproj|solutionrelative:donorservice\\controllers\\records\\recorderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -19,28 +43,8 @@
       "RelativeMoniker": "D:0:0:{9234C712-C1B1-4FBB-9146-123160612AB5}|Models\\Models.csproj|solutionrelative:models\\models\\anazlysis.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A9B83AFA-179E-47A8-9D29-399E6BE2D10F}|DonorService\\DonorService.csproj|e:\\visualstudio\\donorservice\\donorservice\\controllers\\auth\\authorizationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A9B83AFA-179E-47A8-9D29-399E6BE2D10F}|DonorService\\DonorService.csproj|solutionrelative:donorservice\\controllers\\auth\\authorizationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A9B83AFA-179E-47A8-9D29-399E6BE2D10F}|DonorService\\DonorService.csproj|e:\\visualstudio\\donorservice\\donorservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A9B83AFA-179E-47A8-9D29-399E6BE2D10F}|DonorService\\DonorService.csproj|solutionrelative:donorservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9234C712-C1B1-4FBB-9146-123160612AB5}|Models\\Models.csproj|e:\\visualstudio\\donorservice\\models\\models\\record.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9234C712-C1B1-4FBB-9146-123160612AB5}|Models\\Models.csproj|solutionrelative:models\\models\\record.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{9234C712-C1B1-4FBB-9146-123160612AB5}|Models\\Models.csproj|e:\\visualstudio\\donorservice\\models\\models\\diliverypoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9234C712-C1B1-4FBB-9146-123160612AB5}|Models\\Models.csproj|solutionrelative:models\\models\\diliverypoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{526B7D03-A40D-4D1D-96A9-09903BEF2030}|Database\\Database.csproj|e:\\visualstudio\\donorservice\\database\\database.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{526B7D03-A40D-4D1D-96A9-09903BEF2030}|Database\\Database.csproj|solutionrelative:database\\database.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9234C712-C1B1-4FBB-9146-123160612AB5}|Models\\Models.csproj|e:\\visualstudio\\donorservice\\models\\models\\donor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9234C712-C1B1-4FBB-9146-123160612AB5}|Models\\Models.csproj|solutionrelative:models\\models\\donor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -59,12 +63,25 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "EditingProfileController.cs",
+              "DocumentMoniker": "E:\\VisualStudio\\DonorService\\DonorService\\Controllers\\EditingProfile\\EditingProfileController.cs",
+              "RelativeDocumentMoniker": "DonorService\\Controllers\\EditingProfile\\EditingProfileController.cs",
+              "ToolTip": "E:\\VisualStudio\\DonorService\\DonorService\\Controllers\\EditingProfile\\EditingProfileController.cs",
+              "RelativeToolTip": "DonorService\\Controllers\\EditingProfile\\EditingProfileController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAgAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T11:32:59.54Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "RecordersController.cs",
               "DocumentMoniker": "E:\\VisualStudio\\DonorService\\DonorService\\Controllers\\Records\\RecordersController.cs",
               "RelativeDocumentMoniker": "DonorService\\Controllers\\Records\\RecordersController.cs",
               "ToolTip": "E:\\VisualStudio\\DonorService\\DonorService\\Controllers\\Records\\RecordersController.cs",
               "RelativeToolTip": "DonorService\\Controllers\\Records\\RecordersController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABcAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-05T10:57:35.784Z",
               "EditorCaption": ""
@@ -97,7 +114,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 3,
               "Title": "Database",
               "DocumentMoniker": "E:\\VisualStudio\\DonorService\\Database\\Database.csproj",
               "RelativeDocumentMoniker": "Database\\Database.csproj",
@@ -110,7 +127,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 2,
               "Title": "Record.cs",
               "DocumentMoniker": "E:\\VisualStudio\\DonorService\\Models\\Models\\Record.cs",
               "RelativeDocumentMoniker": "Models\\Models\\Record.cs",
@@ -123,7 +140,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 1,
               "Title": "Donor.cs",
               "DocumentMoniker": "E:\\VisualStudio\\DonorService\\Models\\Models\\Donor.cs",
               "RelativeDocumentMoniker": "Models\\Models\\Donor.cs",
@@ -136,7 +153,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 10,
               "Title": "DiliveryPoint.cs",
               "DocumentMoniker": "E:\\VisualStudio\\DonorService\\Models\\Models\\DiliveryPoint.cs",
               "RelativeDocumentMoniker": "Models\\Models\\DiliveryPoint.cs",
@@ -149,7 +166,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 9,
               "Title": "Anazlysis.cs",
               "DocumentMoniker": "E:\\VisualStudio\\DonorService\\Models\\Models\\Anazlysis.cs",
               "RelativeDocumentMoniker": "Models\\Models\\Anazlysis.cs",
@@ -162,12 +179,12 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 8,
               "Title": "DonorService",
               "DocumentMoniker": "E:\\VisualStudio\\DonorService\\DonorService\\DonorService.csproj",
               "RelativeDocumentMoniker": "DonorService\\DonorService.csproj",
-              "ToolTip": "E:\\VisualStudio\\DonorService\\DonorService\\DonorService.csproj*",
-              "RelativeToolTip": "DonorService\\DonorService.csproj*",
+              "ToolTip": "E:\\VisualStudio\\DonorService\\DonorService\\DonorService.csproj",
+              "RelativeToolTip": "DonorService\\DonorService.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
               "WhenOpened": "2025-06-05T10:13:41.603Z",
@@ -175,7 +192,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 7,
               "Title": "DiliveryContext.cs",
               "DocumentMoniker": "E:\\VisualStudio\\DonorService\\Database\\DiliveryContext.cs",
               "RelativeDocumentMoniker": "Database\\DiliveryContext.cs",
