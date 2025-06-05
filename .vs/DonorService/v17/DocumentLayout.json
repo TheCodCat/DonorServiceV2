@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "E:\\VisualStudio\\DonorService\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A9B83AFA-179E-47A8-9D29-399E6BE2D10F}|DonorService\\DonorService.csproj|e:\\visualstudio\\donorservice\\donorservice\\controllers\\auth\\recorderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A9B83AFA-179E-47A8-9D29-399E6BE2D10F}|DonorService\\DonorService.csproj|solutionrelative:donorservice\\controllers\\auth\\recorderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A9B83AFA-179E-47A8-9D29-399E6BE2D10F}|DonorService\\DonorService.csproj|e:\\visualstudio\\donorservice\\donorservice\\controllers\\records\\recorderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9B83AFA-179E-47A8-9D29-399E6BE2D10F}|DonorService\\DonorService.csproj|solutionrelative:donorservice\\controllers\\records\\recorderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{526B7D03-A40D-4D1D-96A9-09903BEF2030}|Database\\Database.csproj|e:\\visualstudio\\donorservice\\database\\diliverycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -60,11 +60,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "RecordersController.cs",
-              "DocumentMoniker": "E:\\VisualStudio\\DonorService\\DonorService\\Controllers\\Auth\\RecordersController.cs",
-              "RelativeDocumentMoniker": "DonorService\\Controllers\\Auth\\RecordersController.cs",
-              "ToolTip": "E:\\VisualStudio\\DonorService\\DonorService\\Controllers\\Auth\\RecordersController.cs",
-              "RelativeToolTip": "DonorService\\Controllers\\Auth\\RecordersController.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAQwBoAAAAwAAAAAAAAAA==",
+              "DocumentMoniker": "E:\\VisualStudio\\DonorService\\DonorService\\Controllers\\Records\\RecordersController.cs",
+              "RelativeDocumentMoniker": "DonorService\\Controllers\\Records\\RecordersController.cs",
+              "ToolTip": "E:\\VisualStudio\\DonorService\\DonorService\\Controllers\\Records\\RecordersController.cs",
+              "RelativeToolTip": "DonorService\\Controllers\\Records\\RecordersController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-05T10:57:35.784Z",
               "EditorCaption": ""
@@ -166,8 +166,8 @@
               "Title": "DonorService",
               "DocumentMoniker": "E:\\VisualStudio\\DonorService\\DonorService\\DonorService.csproj",
               "RelativeDocumentMoniker": "DonorService\\DonorService.csproj",
-              "ToolTip": "E:\\VisualStudio\\DonorService\\DonorService\\DonorService.csproj",
-              "RelativeToolTip": "DonorService\\DonorService.csproj",
+              "ToolTip": "E:\\VisualStudio\\DonorService\\DonorService\\DonorService.csproj*",
+              "RelativeToolTip": "DonorService\\DonorService.csproj*",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
               "WhenOpened": "2025-06-05T10:13:41.603Z",

@@ -4,7 +4,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Models.Models;
 
-namespace DonorService.Controllers.Auth
+namespace DonorService.Controllers.Records
 {
     [ApiController]
     [Route("[Controller]")]
@@ -12,7 +12,7 @@ namespace DonorService.Controllers.Auth
     {
         [HttpPost("/Addrecods")]
         [EndpointSummary("Запись на сдачу")]
-        public async Task<ActionResult> RecordDilivery([FromHeader] int donorid, [FromBody] int diliveryPointId)
+        public async Task<ActionResult> RecordDilivery([FromHeader] int donorid, [FromHeader] int diliveryPointId)
         {
             var donor = diliveryContext.Donors.FirstOrDefault(x => x.Id == donorid);
             var point = diliveryContext.DiliveryPoints.FirstOrDefault(x => x.Id == diliveryPointId);
