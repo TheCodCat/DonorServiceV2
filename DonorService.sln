@@ -10,6 +10,9 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Database", "Database\Database.csproj", "{526B7D03-A40D-4D1D-96A9-09903BEF2030}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DonorApplication", "DonorApplication\DonorApplication.csproj", "{7BB8FDC4-65F0-421B-8C36-13B36D8904C7}"
+	ProjectSection(ProjectDependencies) = postProject
+		{A9B83AFA-179E-47A8-9D29-399E6BE2D10F} = {A9B83AFA-179E-47A8-9D29-399E6BE2D10F}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

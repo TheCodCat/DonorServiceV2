@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="DonorApplication.AuthorizationPage"
+             xmlns:material="http://schemas.enisn-projects.io/dotnet/maui/uraniumui/material"
+             xmlns:input="clr-namespace:InputKit.Shared.Controls;assembly=InputKit.Maui"
+             xmlns:validation="clr-namespace:InputKit.Shared.Validations;assembly=InputKit.Maui"
+             xmlns:viewmodel="clr-namespace:DonorApplication.ViewModel"
+             xmlns:fa="clr-namespace:UraniumUI.Icons.FontAwesome;assembly=UraniumUI.Icons.FontAwesome"
+             xmlns:uranium="http://schemas.enisn-projects.io/dotnet/maui/uraniumui">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="1*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="Auto"/>
+            <ColumnDefinition Width="1*"/>
+        </Grid.ColumnDefinitions>
+        <VerticalStackLayout WidthRequest="300" Grid.Row="1" Grid.Column="1" Spacing="10">
+
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="1*"/>
+                    <ColumnDefinition Width="1*"/>
+                    <ColumnDefinition Width="1*"/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="1*"/>
+                </Grid.RowDefinitions>
+
+                <Border HeightRequest="125" WidthRequest="125" Grid.Column="0" Grid.ColumnSpan="3" BackgroundColor="White">
+                    <Image Source="icon.png" HeightRequest="100"/>
+
+                    <Border.StrokeShape>
+                        <RoundRectangle CornerRadius="90"/>
+                    </Border.StrokeShape>
+                </Border>
+            </Grid>
+
+            <Label Text="Авторизация" HorizontalTextAlignment="Center" FontSize="24"/>
+
+            <input:FormView SubmitCommand="{Binding AuthorizationCommand}" Spacing="10">
+
+                <material:TextField Title="Login" Text="{Binding Login}" MaxLength="20">
+                    <validation:RequiredValidation Message="Введите логин" />
+                    <validation:MinLengthValidation Message="Минимальная длина - 4" MinLength="4"/>
+                </material:TextField>
+
+                <material:TextField Title="Password" Text="{Binding Password}" MaxLength="15" IsPassword="True">
+                    <validation:RequiredValidation Message="Введите пароль"/>
+                    <validation:MinLengthValidation Message="Минимальная длина пароля - 5" MinLength="5"/>
+                </material:TextField>
+
+                <BoxView StyleClass="Divider"/>
+
+                <Button Text="Авторизация"
+                            TextColor="White"
+                            FontSize="20"
+                            input:FormView.IsSubmitButton="True"
+                            StyleClass="FilledButton"
+                            FontAttributes="Bold"/>
+
+                <BoxView StyleClass="Divider"/>
+            </input:FormView>
+
+            <Button Text="Регистрация"
+                            TextColor="White"
+                            FontSize="20"
+                            StyleClass="FilledButton"
+                            FontAttributes="Bold"
+                            Command="{Binding RegistrationCommand}"/>
+
+            <Label Text="{Binding CallbackText}" Grid.Column="1" Grid.Row="2" x:Name="CallbackText"/>
+        </VerticalStackLayout>
+
+        <ActivityIndicator BackgroundColor="#90000000" IsVisible="{Binding IsRequest}"  IsRunning="{Binding IsRequest}" Grid.Row="0" Grid.Column="0" Grid.RowSpan="4" Grid.ColumnSpan="3"/>
+    </Grid>
+</ContentPage>

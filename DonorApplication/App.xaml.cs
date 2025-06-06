@@ -1,15 +1,19 @@
-﻿namespace DonorApplication
+﻿using DonorApplication.ViewModel;
+
+namespace DonorApplication
 {
 	public partial class App : Application
 	{
-		public App()
+		AuthorizationViewModel viewModel;
+		public App(AuthorizationViewModel authorizationViewModel)
 		{
 			InitializeComponent();
+			viewModel = authorizationViewModel;
 		}
 
 		protected override Window CreateWindow(IActivationState? activationState)
 		{
-			return new Window(new AppShell());
+			return new Window(new NavigationPage(new AuthorizationPage(viewModel)));
 		}
 	}
 }

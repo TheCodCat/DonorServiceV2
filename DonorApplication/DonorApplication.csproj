@@ -66,12 +66,16 @@
 		<PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="9.0.0" />
 		<PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
 		<PackageReference Include="UraniumUI" Version="2.12.1" />
+		<PackageReference Include="UraniumUI.Icons.FontAwesome" Version="2.12.1" />
 		<PackageReference Include="UraniumUI.Icons.MaterialIcons" Version="2.12.1" />
 		<PackageReference Include="UraniumUI.Material" Version="2.12.1" />
 	</ItemGroup>
 
 	<ItemGroup>
-	  <MauiXaml Update="AuthorizationPage.xaml">
+	  <MauiXaml Update="Pages\AuthorizationPage.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Pages\EditProfilePage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	</ItemGroup>

@@ -18,6 +18,7 @@ namespace DonorApplication
 				{
 					fonts.AddFont("OpenSans-Regular.ttf", "OpenSansRegular");
 					fonts.AddFont("OpenSans-Semibold.ttf", "OpenSansSemibold");
+					fonts.AddFontAwesomeIconFonts();
 				});
 			builder.Services.AddTransient<AuthorizationViewModel>();
 			builder.Services.AddSingleton<UserData>();

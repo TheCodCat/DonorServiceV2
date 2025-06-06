@@ -3,10 +3,6 @@
   "WorkspaceRootPath": "C:\\Users\\ivani\\GameMAUI\\DonorServiceV2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7BB8FDC4-65F0-421B-8C36-13B36D8904C7}|DonorApplication\\DonorApplication.csproj|c:\\users\\ivani\\gamemaui\\donorservicev2\\donorapplication\\authorizationpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{7BB8FDC4-65F0-421B-8C36-13B36D8904C7}|DonorApplication\\DonorApplication.csproj|solutionrelative:donorapplication\\authorizationpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{7BB8FDC4-65F0-421B-8C36-13B36D8904C7}|DonorApplication\\DonorApplication.csproj|c:\\users\\ivani\\gamemaui\\donorservicev2\\donorapplication\\viewmodel\\authorizationviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7BB8FDC4-65F0-421B-8C36-13B36D8904C7}|DonorApplication\\DonorApplication.csproj|solutionrelative:donorapplication\\viewmodel\\authorizationviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -18,7 +14,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -26,28 +22,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "AuthorizationViewModel.cs",
               "DocumentMoniker": "C:\\Users\\ivani\\GameMAUI\\DonorServiceV2\\DonorApplication\\ViewModel\\AuthorizationViewModel.cs",
               "RelativeDocumentMoniker": "DonorApplication\\ViewModel\\AuthorizationViewModel.cs",
               "ToolTip": "C:\\Users\\ivani\\GameMAUI\\DonorServiceV2\\DonorApplication\\ViewModel\\AuthorizationViewModel.cs",
               "RelativeToolTip": "DonorApplication\\ViewModel\\AuthorizationViewModel.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAIA0wBkAAAACAAAAAAAAAA==",
+              "ViewState": "AgIAADcAAAAAAAAAAAAIwEQAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-06T09:52:23.72Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "AuthorizationPage.xaml",
-              "DocumentMoniker": "C:\\Users\\ivani\\GameMAUI\\DonorServiceV2\\DonorApplication\\AuthorizationPage.xaml",
-              "RelativeDocumentMoniker": "DonorApplication\\AuthorizationPage.xaml",
-              "ToolTip": "C:\\Users\\ivani\\GameMAUI\\DonorServiceV2\\DonorApplication\\AuthorizationPage.xaml",
-              "RelativeToolTip": "DonorApplication\\AuthorizationPage.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-06-06T07:16:18.751Z",
+              "WhenOpened": "2025-06-06T14:56:26.715Z",
               "EditorCaption": ""
             }
           ]
