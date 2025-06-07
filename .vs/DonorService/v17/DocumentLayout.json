@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\ivani\\GameMAUI\\DonorServiceV2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7BB8FDC4-65F0-421B-8C36-13B36D8904C7}|DonorApplication\\DonorApplication.csproj|c:\\users\\ivani\\gamemaui\\donorservicev2\\donorapplication\\viewmodel\\editprofileviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7BB8FDC4-65F0-421B-8C36-13B36D8904C7}|DonorApplication\\DonorApplication.csproj|solutionrelative:donorapplication\\viewmodel\\editprofileviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7BB8FDC4-65F0-421B-8C36-13B36D8904C7}|DonorApplication\\DonorApplication.csproj|c:\\users\\ivani\\gamemaui\\donorservicev2\\donorapplication\\enums\\bloodtypeenum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BB8FDC4-65F0-421B-8C36-13B36D8904C7}|DonorApplication\\DonorApplication.csproj|solutionrelative:donorapplication\\enums\\bloodtypeenum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7BB8FDC4-65F0-421B-8C36-13B36D8904C7}|DonorApplication\\DonorApplication.csproj|c:\\users\\ivani\\gamemaui\\donorservicev2\\donorapplication\\pages\\editprofilepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{7BB8FDC4-65F0-421B-8C36-13B36D8904C7}|DonorApplication\\DonorApplication.csproj|solutionrelative:donorapplication\\pages\\editprofilepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{9234C712-C1B1-4FBB-9146-123160612AB5}|Models\\Models.csproj|c:\\users\\ivani\\gamemaui\\donorservicev2\\models\\enums\\bloodtypeenum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9234C712-C1B1-4FBB-9146-123160612AB5}|Models\\Models.csproj|solutionrelative:models\\enums\\bloodtypeenum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -26,28 +26,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "EditProfilePage.xaml",
-              "DocumentMoniker": "C:\\Users\\ivani\\GameMAUI\\DonorServiceV2\\DonorApplication\\Pages\\EditProfilePage.xaml",
-              "RelativeDocumentMoniker": "DonorApplication\\Pages\\EditProfilePage.xaml",
-              "ToolTip": "C:\\Users\\ivani\\GameMAUI\\DonorServiceV2\\DonorApplication\\Pages\\EditProfilePage.xaml",
-              "RelativeToolTip": "DonorApplication\\Pages\\EditProfilePage.xaml",
-              "ViewState": "AgIAABsAAAAAAAAAAAAAACoAAABwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-06-07T07:45:26.076Z",
+              "DocumentIndex": 0,
+              "Title": "BloodTypeEnum.cs",
+              "DocumentMoniker": "C:\\Users\\ivani\\GameMAUI\\DonorServiceV2\\DonorApplication\\Enums\\BloodTypeEnum.cs",
+              "RelativeDocumentMoniker": "DonorApplication\\Enums\\BloodTypeEnum.cs",
+              "ToolTip": "C:\\Users\\ivani\\GameMAUI\\DonorServiceV2\\DonorApplication\\Enums\\BloodTypeEnum.cs*",
+              "RelativeToolTip": "DonorApplication\\Enums\\BloodTypeEnum.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-07T09:33:44.408Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "EditProfileViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\ivani\\GameMAUI\\DonorServiceV2\\DonorApplication\\ViewModel\\EditProfileViewModel.cs",
-              "RelativeDocumentMoniker": "DonorApplication\\ViewModel\\EditProfileViewModel.cs",
-              "ToolTip": "C:\\Users\\ivani\\GameMAUI\\DonorServiceV2\\DonorApplication\\ViewModel\\EditProfileViewModel.cs",
-              "RelativeToolTip": "DonorApplication\\ViewModel\\EditProfileViewModel.cs",
-              "ViewState": "AgIAAFAAAAAAAAAAAAAvwGMAAAADAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "BloodTypeEnum.cs",
+              "DocumentMoniker": "C:\\Users\\ivani\\GameMAUI\\DonorServiceV2\\Models\\Enums\\BloodTypeEnum.cs",
+              "RelativeDocumentMoniker": "Models\\Enums\\BloodTypeEnum.cs",
+              "ToolTip": "C:\\Users\\ivani\\GameMAUI\\DonorServiceV2\\Models\\Enums\\BloodTypeEnum.cs",
+              "RelativeToolTip": "Models\\Enums\\BloodTypeEnum.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-07T06:52:41.888Z",
+              "WhenOpened": "2025-06-07T09:32:55.041Z",
               "EditorCaption": ""
             }
           ]
