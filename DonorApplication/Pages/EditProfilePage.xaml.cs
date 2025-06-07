@@ -1,9 +1,12 @@
-namespace DonorApplication.Pages;
+using DonorApplication.ViewModel;
+
+namespace DonorApplication;
 
 public partial class EditProfilePage : ContentPage
 {
-	public EditProfilePage()
+	public EditProfilePage(EditProfileViewModel editProfileViewModel)
 	{
 		InitializeComponent();
+		BindingContext = editProfileViewModel;
 	}
 }

@@ -7,8 +7,12 @@
     Shell.FlyoutBehavior="Flyout"
     Title="DonorApplication">
 
-    <ShellContent
+    <ShellContent Title="Вход"
         ContentTemplate="{DataTemplate local:AuthorizationPage}"
         Route="MainPage" />
+
+    <ShellContent Title="Редактирование профиля"
+        ContentTemplate="{DataTemplate local:EditProfilePage}"
+        Route="EditPage" />
 
 </Shell>

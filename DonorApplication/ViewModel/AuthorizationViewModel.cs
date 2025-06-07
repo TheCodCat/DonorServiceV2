@@ -1,6 +1,5 @@
 ﻿using CommunityToolkit.Mvvm.ComponentModel;
 using CommunityToolkit.Mvvm.Input;
-using DonorApplication.Pages;
 using DonorApplication.Singlton;
 using Models.DTO;
 using Models.Models;
@@ -60,7 +59,7 @@ namespace DonorApplication.ViewModel
 					userData.Donor = JsonConvert.DeserializeObject<Donor>(body) ?? null;
 
 					if (userData.Donor != null)
-						await page.Navigation.PushAsync(new EditProfilePage());
+						await page.Navigation.PushAsync(new EditProfilePage(new EditProfileViewModel(userData)));
 				}
 			}
 			catch (HttpRequestException)

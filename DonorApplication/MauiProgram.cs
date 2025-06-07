@@ -21,6 +21,7 @@ namespace DonorApplication
 					fonts.AddFontAwesomeIconFonts();
 				});
 			builder.Services.AddTransient<AuthorizationViewModel>();
+			builder.Services.AddTransient<EditProfileViewModel>();
 			builder.Services.AddSingleton<UserData>();
 #if DEBUG
 			builder.Logging.AddDebug();

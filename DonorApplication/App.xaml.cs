@@ -13,7 +13,7 @@ namespace DonorApplication
 
 		protected override Window CreateWindow(IActivationState? activationState)
 		{
-			return new Window(new NavigationPage(new AuthorizationPage(viewModel)));
+			return new Window(new AppShell());
 		}
 	}
 }
