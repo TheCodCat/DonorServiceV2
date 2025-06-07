@@ -15,7 +15,7 @@
                   ContentTemplate="{DataTemplate local:RecordPage}"
                   Route="RecordPage"/>
 
-    <ShellContent Title="Редактирование профиля"
+    <ShellContent Title="Профиль"
         ContentTemplate="{DataTemplate local:EditProfilePage}"
         Route="EditPage" />
 
