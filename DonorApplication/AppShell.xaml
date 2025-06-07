@@ -15,4 +15,8 @@
         ContentTemplate="{DataTemplate local:EditProfilePage}"
         Route="EditPage" />
 
+    <ShellContent Title="Рекомендации"
+                  ContentTemplate="{DataTemplate local:RecomendationPage}"
+                  Route="RecomendationPage"/>
+
 </Shell>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="DonorApplication.RecomendationPage">
+    <ScrollView>
+        <StackLayout Margin="20">
+            <Image Source="recomendation_blood_donation_horizontal.jpg"/>
+
+            <ListView ItemsSource="{Binding RecomendationItems}" SelectionMode="None" Margin="20">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <ViewCell.View>
+                                <StackLayout Spacing="10" Margin="20">
+                                    <Label FontSize="24">
+                                        <Label.FormattedText>
+                                            <FormattedString>
+                                                <Span Text="*" TextColor="Red" CharacterSpacing="6"/>
+                                                <Span Text="{Binding .}"/>
+                                            </FormattedString>
+                                        </Label.FormattedText>
+                                    </Label>
+                                </StackLayout>
+                            </ViewCell.View>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+                <ListView.Header>
+                    <Label Text="Как подготовиться к донации?" FontSize="28" FontAttributes="Bold"/>
+                </ListView.Header>
+            </ListView>
+
+            <BoxView StyleClass="Divider"/>
+            
+            <VerticalStackLayout>
+                    <Label FontAttributes="Bold" Text="Особенно важно следовать этим простым правилам при сдаче клеток крови или плазмы. Нарушение правил подготовки к донации может повлиять на качество компонентов крови и невозможности их клинического использования" TextColor="Red" FontSize="20"/>
+                    <Label Text="Что касается самочувствия во время кроводачи, то у некоторых людей наблюдается легкое головокружение. Недомогание может быть незначительным понижением давления. Однако обычно организм здорового человека с этим легко справляется." FontSize="20" Margin="0,20,0,0"/>
+            </VerticalStackLayout>
+            
+            <BoxView StyleClass="Divider"/>
+            
+            <ListView ItemsSource="{Binding LastDonations}" SelectionMode="None" Margin="20">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <ViewCell.View>
+                            <StackLayout Spacing="10" Margin="20">
+                                <Label FontSize="24">
+                                    <Label.FormattedText>
+                                        <FormattedString>
+                                            <Span Text="*" TextColor="Red" CharacterSpacing="6"/>
+                                            <Span Text="{Binding .}"/>
+                                        </FormattedString>
+                                    </Label.FormattedText>
+                                </Label>
+                            </StackLayout>
+                        </ViewCell.View>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+            <ListView.Header>
+                <Label Text="После совершения донации" FontSize="28" FontAttributes="Bold"/>
+            </ListView.Header>
+        </ListView>
+
+            <Label Text="Как часто можно сдавать кровь?" FontSize="28"/>
+
+            <Label Margin="0,20,0,0" FontSize="24" Text="В целях безопасности донорства также важно соблюдать правила, установленные медиками. Так, мужчины могут сдавать кровь не более 5 раз в год, женщины — не более 4."/>
+        </StackLayout>
+
+    </ScrollView>
+    
+</ContentPage>
