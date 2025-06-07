@@ -59,10 +59,10 @@ namespace DonorApplication.ViewModel
 					userData.Donor = JsonConvert.DeserializeObject<Donor>(body) ?? null;
 
 					if (userData.Donor != null)
-						await page.Navigation.PushAsync(new EditProfilePage(new EditProfileViewModel(userData)));
+						await page.Navigation.PushAsync(new RecordPage(userData));
 				}
 			}
-			catch (HttpRequestException)
+			catch (HttpRequestException ex)
 			{
 				CallbackText = "Неправильный логин или пароль";
 				page.ChangeText(Color.FromRgb(255, 0, 0));
@@ -112,9 +112,9 @@ namespace DonorApplication.ViewModel
 
 				}
 			}
-			catch (HttpRequestException)
+			catch (HttpRequestException ex)
 			{
-				CallbackText = "Логин уже занят, повторите попытку";
+				CallbackText = ex.Message;
 				page.ChangeText(Color.FromRgb(255, 0, 0));
 			}
 			finally

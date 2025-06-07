@@ -20,8 +20,8 @@ namespace DonorApplication
 					fonts.AddFont("OpenSans-Semibold.ttf", "OpenSansSemibold");
 					fonts.AddFontAwesomeIconFonts();
 				});
-			builder.Services.AddTransient<AuthorizationViewModel>();
-			builder.Services.AddTransient<EditProfileViewModel>();
+			builder.Services.AddSingleton<AuthorizationViewModel>();
+			builder.Services.AddSingleton<EditProfileViewModel>();
 			builder.Services.AddSingleton<UserData>();
 #if DEBUG
 			builder.Logging.AddDebug();

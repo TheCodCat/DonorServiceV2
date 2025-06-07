@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="DonorApplication.RecordPage"
+             xmlns:material="http://schemas.enisn-projects.io/dotnet/maui/uraniumui/material"
+             xmlns:input="clr-namespace:InputKit.Shared.Controls;assembly=InputKit.Maui"
+             xmlns:validation="clr-namespace:InputKit.Shared.Validations;assembly=InputKit.Maui"
+             xmlns:viewmodel="clr-namespace:DonorApplication.ViewModel"
+             xmlns:fa="clr-namespace:UraniumUI.Icons.FontAwesome;assembly=UraniumUI.Icons.FontAwesome"
+             xmlns:uranium="http://schemas.enisn-projects.io/dotnet/maui/uraniumui">
+    
+    <Grid>
+        <Label Text="Для записи на сдачу крови необходимо авторизоваться" IsEnabled="{Binding IsNotAuth}" IsVisible="{Binding IsNotAuth}" VerticalOptions="Center" HorizontalOptions="Center" FontSize="28"/>
+
+        <ActivityIndicator IsVisible="{Binding IsRequest}" IsRunning="{Binding IsRequest}"/>
+
+        <VerticalStackLayout IsEnabled="{Binding IsAuthAcount}" IsVisible="{Binding IsAuthAcount}">
+
+            <ImageButton Source="recomendation_image.png" Aspect="AspectFit" Command="{Binding MoveToRecomendationCommand}"/>
+
+            <DatePicker MinimumDate="01/01/2020" MaximumDate="01/01/2030" HorizontalOptions="Center" Margin="20"/>
+            <CollectionView ItemsSource="{Binding DiliveryPoints}" SelectionMode="None" Margin="30,0,30,0">
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <VerticalStackLayout Margin="20" Padding="0,0,0,20">
+                            <Label Text="{Binding Description}" HorizontalOptions="Center" FontSize="24"/>
+                            <Button Text="Записаться" Command="{Binding Source={RelativeSource AncestorType={x:Type viewmodel:RecordsViewModel}}, Path=SignUpForChangeCommand}" CommandParameter="{Binding Id}"/>
+                        </VerticalStackLayout>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+        </VerticalStackLayout>
+    </Grid>
+    
+</ContentPage>

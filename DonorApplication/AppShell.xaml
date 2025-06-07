@@ -11,6 +11,10 @@
         ContentTemplate="{DataTemplate local:AuthorizationPage}"
         Route="MainPage" />
 
+    <ShellContent Title="Запись на сдачу крови"
+                  ContentTemplate="{DataTemplate local:RecordPage}"
+                  Route="RecordPage"/>
+
     <ShellContent Title="Редактирование профиля"
         ContentTemplate="{DataTemplate local:EditProfilePage}"
         Route="EditPage" />
