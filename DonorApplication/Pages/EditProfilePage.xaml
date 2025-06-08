@@ -8,7 +8,6 @@
              xmlns:viewmodel="clr-namespace:DonorApplication.ViewModel"
              xmlns:fa="clr-namespace:UraniumUI.Icons.FontAwesome;assembly=UraniumUI.Icons.FontAwesome"
              xmlns:uranium="http://schemas.enisn-projects.io/dotnet/maui/uraniumui">
-
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="1*"/>
@@ -24,28 +23,34 @@
         <Grid Grid.Row="0" Grid.RowSpan="3" Grid.Column="0" Grid.ColumnSpan="3" IsEnabled="{Binding IsNotAuth}" IsVisible="{Binding IsNotAuth}">
             <Label Text="Для редактирования профиля войдите в аккаунт" HorizontalOptions="Center" VerticalOptions="Center" FontSize="24"/>
         </Grid>
+        <FlexLayout Grid.Row="1" Grid.Column="1">
+            <VerticalStackLayout IsEnabled="{Binding IsAuthAcount}" IsVisible="{Binding IsAuthAcount}" Spacing="10">
+                <Border BackgroundColor="White" HeightRequest="75" WidthRequest="75">
+                    <Label Text="{Binding FullNameIcon}" TextColor="Blue" FontSize="40" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"/>
 
-        <VerticalStackLayout Grid.Row="1" Grid.Column="1" IsEnabled="{Binding IsAuthAcount}" IsVisible="{Binding IsAuthAcount}" Spacing="10">
-            <Border BackgroundColor="White" HeightRequest="75" WidthRequest="75">
-                <Label Text="{Binding FullNameIcon}" TextColor="Blue" FontSize="40" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"/>
+                    <Border.StrokeShape>
+                        <RoundRectangle CornerRadius="99"/>
+                    </Border.StrokeShape>
+                </Border>
 
-                <Border.StrokeShape>
-                    <RoundRectangle CornerRadius="99"/>
-                </Border.StrokeShape>
-            </Border>
+                <BoxView StyleClass="Divider"/>
 
-            <BoxView StyleClass="Divider"/>
+                <Label Text="Редактирование" HorizontalOptions="Center" FontSize="24" FontAttributes="Bold"/>
 
-            <Label Text="Редактирование" HorizontalOptions="Center" FontSize="24" FontAttributes="Bold"/>
+                <material:TextField Title="ФИО" Text="{Binding FullName}"/>
+
+                <material:PickerField Title="Группа крови" ItemsSource="{Binding BioTypes}" SelectedItem="{Binding SelectTypeBlood}"/>
+
+                <material:ButtonView TappedCommand="{Binding EditProfileCommand}">
+                    <Label Text="Изменить"/>
+                </material:ButtonView>
+            </VerticalStackLayout>
             
-            <material:TextField Title="ФИО" Text="{Binding FullName}"/>
-
-            <material:PickerField Title="Группа крови" ItemsSource="{Binding BioTypes}" SelectedItem="{Binding SelectTypeBlood}"/>
-
-            <material:ButtonView PressedCommand="{Binding EditProfileCommand}">
-                <Label Text="Изменить"/>
-            </material:ButtonView>
-        </VerticalStackLayout>
+            <VerticalStackLayout>
+                <BoxView HeightRequest="400" WidthRequest="300"/>
+            </VerticalStackLayout>
+        </FlexLayout>
     </Grid>
+
 
 </ContentPage>

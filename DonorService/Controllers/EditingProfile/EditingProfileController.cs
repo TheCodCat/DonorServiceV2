@@ -18,6 +18,7 @@ namespace DonorService.Controllers.EditingProfile
 
             donor.FullName = data.Item1;
             donor.BloodTypeEnum = data.Item2;
+            donor.IsEdit = true;
 
             await diliveryContext.SaveChangesAsync();
             return Ok(donor);

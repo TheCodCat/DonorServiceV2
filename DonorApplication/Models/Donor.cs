@@ -10,5 +10,6 @@ namespace Models.Models
         public string Login { get; set; } = string.Empty;
         public string Password { get; set; } = string.Empty;
         public BloodTypeEnum BloodTypeEnum { get; set; }
-    }
+		public bool IsEdit { get; set; }
+	}
 }

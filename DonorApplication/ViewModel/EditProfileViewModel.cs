@@ -45,6 +45,9 @@ namespace DonorApplication.ViewModel
         [ObservableProperty]
         private bool isAuthAcount;
 
+        [ObservableProperty]
+        private bool isEditProfile;
+
 		public EditProfileViewModel(UserData userData)
         {
 
@@ -52,6 +55,7 @@ namespace DonorApplication.ViewModel
 
             IsNotAuth = Donor == null;
             IsAuthAcount = !isNotAuth;
+            IsEditProfile = Donor.IsEdit;
             //ChangeViewData();
 		}
 
@@ -76,6 +80,13 @@ namespace DonorApplication.ViewModel
         [RelayCommand]
         private async void EditProfile()
         {
+            if (IsEditProfile)
+            {
+                SelectTypeBlood = Donor.BloodTypeEnum;
+
+				return;
+            }
+
 			Tuple<string, BloodTypeEnum> tuple = new Tuple<string, BloodTypeEnum>(FullName, SelectTypeBlood);
             string json = JsonConvert.SerializeObject(tuple);
 
@@ -96,7 +107,7 @@ namespace DonorApplication.ViewModel
 			{
 				response.EnsureSuccessStatusCode();
 				var body = await response.Content.ReadAsStringAsync();
-				Console.WriteLine(body);
+				Donor = JsonConvert.DeserializeObject<Donor>(body);
 			}
 		}
     }
