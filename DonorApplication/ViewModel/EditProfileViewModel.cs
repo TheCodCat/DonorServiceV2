@@ -10,7 +10,7 @@ using System.Text;
 
 namespace DonorApplication.ViewModel
 {
-    public partial class EditProfileViewModel : ObservableObject
+    public partial class EditProfileViewModel(UserData userData) : ObservableObject
     {
         private HttpClient _httpClient = new HttpClient();
 
@@ -35,7 +35,7 @@ namespace DonorApplication.ViewModel
 		private List<Record> historyPoints = new List<Record>();
 
         [ObservableProperty]
-        private Donor donor;
+        private Donor? donor;
 
         partial void OnDonorChanged(Donor value)
         {
@@ -53,15 +53,13 @@ namespace DonorApplication.ViewModel
         [ObservableProperty]
         private bool isEditProfile;
 
-		public EditProfileViewModel(UserData userData)
+		public void Init()
         {
-
-            Donor = userData.Donor;
+            Donor = userData.Donor ?? null;
 
             IsNotAuth = Donor == null;
             IsAuthAcount = !isNotAuth;
             IsEditProfile = Donor == null ? false : Donor.IsEdit;
-            //ChangeViewData();
 		}
 
         private void ChangeViewData(Donor donor)

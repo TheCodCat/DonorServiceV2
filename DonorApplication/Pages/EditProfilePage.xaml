@@ -16,18 +16,18 @@
         </Grid.ColumnDefinitions>
 
         <Grid Grid.Column="0" Grid.ColumnSpan="3" IsEnabled="{Binding IsNotAuth}" IsVisible="{Binding IsNotAuth}">
-            <Label Text="Для редактирования профиля войдите в аккаунт" HorizontalOptions="Center" VerticalOptions="Center" FontSize="24"/>
+            <Label Text="Для редактирования профиля войдите в аккаунт" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" FontSize="24"/>
         </Grid>
         
         <FlexLayout Grid.Row="1" Grid.Column="1"
                     Wrap="Wrap"
                     VerticalOptions="Fill"
-                    AlignContent="Start"
+                    AlignContent="Center"
                     AlignItems="Center"
-                    JustifyContent="Start"
+                    JustifyContent="Center"
                     Direction="Column"
                     IsEnabled="{Binding IsAuthAcount}" IsVisible="{Binding IsAuthAcount}">
-            <VerticalStackLayout Spacing="10" Margin="10">
+            <VerticalStackLayout Spacing="10" Margin="5" x:Name="ProfileData" HeightRequest="350">
                 <Border BackgroundColor="White" HeightRequest="75" WidthRequest="75">
                     <Label Text="{Binding FullNameIcon}" TextColor="Blue" FontSize="40" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"/>
 
@@ -45,23 +45,25 @@
                 <material:PickerField Title="Группа крови" ItemsSource="{Binding BioTypes}" SelectedItem="{Binding SelectTypeBlood}"/>
 
                 <material:ButtonView TappedCommand="{Binding EditProfileCommand}">
-                    <Label Text="Изменить"/>
+                    <Label Text="Изменить" TextColor="White" HorizontalTextAlignment="Center" FontSize="16" FontAttributes="Bold"/>
                 </material:ButtonView>
+                <BoxView StyleClass="Divider"/>
             </VerticalStackLayout>
-
-            <VerticalStackLayout>
-                <CollectionView ItemsSource="{Binding HistoryPoints}">
-                    <CollectionView.ItemTemplate>
-                        <DataTemplate>
-                            <VerticalStackLayout Padding="2">
-                                <Label Text="{Binding DiliveryPoint.Description, StringFormat='Пункт: {0}'}"/>
-                                <Label Text="{Binding DateOnly, StringFormat='Дата: {0}'}"/>
-                                <BoxView StyleClass="Divider"/>
-                            </VerticalStackLayout>
-                        </DataTemplate>
-                    </CollectionView.ItemTemplate>
-                </CollectionView>
-            </VerticalStackLayout>
+            <ScrollView HeightRequest="{Binding Source={x:Reference ProfileData}, Path=HeightRequest}">
+                <VerticalStackLayout>
+                    <CollectionView ItemsSource="{Binding HistoryPoints}">
+                        <CollectionView.ItemTemplate>
+                            <DataTemplate>
+                                <VerticalStackLayout Padding="2">
+                                    <Label Text="{Binding DiliveryPoint.Description, StringFormat='Пункт: {0}'}"/>
+                                    <Label Text="{Binding DateOnly, StringFormat='Дата: {0}'}"/>
+                                    <BoxView StyleClass="Divider"/>
+                                </VerticalStackLayout>
+                            </DataTemplate>
+                        </CollectionView.ItemTemplate>
+                    </CollectionView>
+                </VerticalStackLayout>
+            </ScrollView>
         </FlexLayout>
         
     </Grid>

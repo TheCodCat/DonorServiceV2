@@ -1,26 +1,22 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\ivani\\GameMAUI\\DonorServiceV2\\",
+  "WorkspaceRootPath": "E:\\VisualStudio\\DonorService\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A9B83AFA-179E-47A8-9D29-399E6BE2D10F}|DonorService\\DonorService.csproj|c:\\users\\ivani\\gamemaui\\donorservicev2\\donorservice\\controllers\\records\\recorderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A9B83AFA-179E-47A8-9D29-399E6BE2D10F}|DonorService\\DonorService.csproj|solutionrelative:donorservice\\controllers\\records\\recorderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7BB8FDC4-65F0-421B-8C36-13B36D8904C7}|DonorApplication\\DonorApplication.csproj|e:\\visualstudio\\donorservice\\donorapplication\\viewmodel\\authorizationviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BB8FDC4-65F0-421B-8C36-13B36D8904C7}|DonorApplication\\DonorApplication.csproj|solutionrelative:donorapplication\\viewmodel\\authorizationviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7BB8FDC4-65F0-421B-8C36-13B36D8904C7}|DonorApplication\\DonorApplication.csproj|c:\\users\\ivani\\gamemaui\\donorservicev2\\donorapplication\\models\\record.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7BB8FDC4-65F0-421B-8C36-13B36D8904C7}|DonorApplication\\DonorApplication.csproj|solutionrelative:donorapplication\\models\\record.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7BB8FDC4-65F0-421B-8C36-13B36D8904C7}|DonorApplication\\DonorApplication.csproj|e:\\visualstudio\\donorservice\\donorapplication\\viewmodel\\editprofileviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BB8FDC4-65F0-421B-8C36-13B36D8904C7}|DonorApplication\\DonorApplication.csproj|solutionrelative:donorapplication\\viewmodel\\editprofileviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9234C712-C1B1-4FBB-9146-123160612AB5}|Models\\Models.csproj|c:\\users\\ivani\\gamemaui\\donorservicev2\\models\\models\\record.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9234C712-C1B1-4FBB-9146-123160612AB5}|Models\\Models.csproj|solutionrelative:models\\models\\record.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7BB8FDC4-65F0-421B-8C36-13B36D8904C7}|DonorApplication\\DonorApplication.csproj|e:\\visualstudio\\donorservice\\donorapplication\\pages\\editprofilepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{7BB8FDC4-65F0-421B-8C36-13B36D8904C7}|DonorApplication\\DonorApplication.csproj|solutionrelative:donorapplication\\pages\\editprofilepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7BB8FDC4-65F0-421B-8C36-13B36D8904C7}|DonorApplication\\DonorApplication.csproj|c:\\users\\ivani\\gamemaui\\donorservicev2\\donorapplication\\viewmodel\\recordsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7BB8FDC4-65F0-421B-8C36-13B36D8904C7}|DonorApplication\\DonorApplication.csproj|solutionrelative:donorapplication\\viewmodel\\recordsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7BB8FDC4-65F0-421B-8C36-13B36D8904C7}|DonorApplication\\DonorApplication.csproj|c:\\users\\ivani\\gamemaui\\donorservicev2\\donorapplication\\pages\\recordpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{7BB8FDC4-65F0-421B-8C36-13B36D8904C7}|DonorApplication\\DonorApplication.csproj|solutionrelative:donorapplication\\pages\\recordpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{7BB8FDC4-65F0-421B-8C36-13B36D8904C7}|DonorApplication\\DonorApplication.csproj|e:\\visualstudio\\donorservice\\donorapplication\\pages\\recomendationpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{7BB8FDC4-65F0-421B-8C36-13B36D8904C7}|DonorApplication\\DonorApplication.csproj|solutionrelative:donorapplication\\pages\\recomendationpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,8 +26,12 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
@@ -39,66 +39,53 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "RecordersController.cs",
-              "DocumentMoniker": "C:\\Users\\ivani\\GameMAUI\\DonorServiceV2\\DonorService\\Controllers\\Records\\RecordersController.cs",
-              "RelativeDocumentMoniker": "DonorService\\Controllers\\Records\\RecordersController.cs",
-              "ToolTip": "C:\\Users\\ivani\\GameMAUI\\DonorServiceV2\\DonorService\\Controllers\\Records\\RecordersController.cs",
-              "RelativeToolTip": "DonorService\\Controllers\\Records\\RecordersController.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA4AAACGAAAAAAAAAA==",
+              "Title": "AuthorizationViewModel.cs",
+              "DocumentMoniker": "E:\\VisualStudio\\DonorService\\DonorApplication\\ViewModel\\AuthorizationViewModel.cs",
+              "RelativeDocumentMoniker": "DonorApplication\\ViewModel\\AuthorizationViewModel.cs",
+              "ToolTip": "E:\\VisualStudio\\DonorService\\DonorApplication\\ViewModel\\AuthorizationViewModel.cs",
+              "RelativeToolTip": "DonorApplication\\ViewModel\\AuthorizationViewModel.cs",
+              "ViewState": "AgIAADEAAAAAAAAAAAAgwEgAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-08T08:32:56.72Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Record.cs",
-              "DocumentMoniker": "C:\\Users\\ivani\\GameMAUI\\DonorServiceV2\\DonorApplication\\Models\\Record.cs",
-              "RelativeDocumentMoniker": "DonorApplication\\Models\\Record.cs",
-              "ToolTip": "C:\\Users\\ivani\\GameMAUI\\DonorServiceV2\\DonorApplication\\Models\\Record.cs",
-              "RelativeToolTip": "DonorApplication\\Models\\Record.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-08T08:32:14.556Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Record.cs",
-              "DocumentMoniker": "C:\\Users\\ivani\\GameMAUI\\DonorServiceV2\\Models\\Models\\Record.cs",
-              "RelativeDocumentMoniker": "Models\\Models\\Record.cs",
-              "ToolTip": "C:\\Users\\ivani\\GameMAUI\\DonorServiceV2\\Models\\Models\\Record.cs",
-              "RelativeToolTip": "Models\\Models\\Record.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-08T08:32:06.49Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "RecordPage.xaml",
-              "DocumentMoniker": "C:\\Users\\ivani\\GameMAUI\\DonorServiceV2\\DonorApplication\\Pages\\RecordPage.xaml",
-              "RelativeDocumentMoniker": "DonorApplication\\Pages\\RecordPage.xaml",
-              "ToolTip": "C:\\Users\\ivani\\GameMAUI\\DonorServiceV2\\DonorApplication\\Pages\\RecordPage.xaml",
-              "RelativeToolTip": "DonorApplication\\Pages\\RecordPage.xaml",
-              "ViewState": "AgIAABIAAAAAAAAAAAAAABsAAACIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-06-08T08:28:15.873Z",
+              "WhenOpened": "2025-06-08T18:46:28.482Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "RecordsViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\ivani\\GameMAUI\\DonorServiceV2\\DonorApplication\\ViewModel\\RecordsViewModel.cs",
-              "RelativeDocumentMoniker": "DonorApplication\\ViewModel\\RecordsViewModel.cs",
-              "ToolTip": "C:\\Users\\ivani\\GameMAUI\\DonorServiceV2\\DonorApplication\\ViewModel\\RecordsViewModel.cs",
-              "RelativeToolTip": "DonorApplication\\ViewModel\\RecordsViewModel.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAiwCsAAAAgAAAAAAAAAA==",
+              "Title": "RecomendationPage.xaml",
+              "DocumentMoniker": "E:\\VisualStudio\\DonorService\\DonorApplication\\Pages\\RecomendationPage.xaml",
+              "RelativeDocumentMoniker": "DonorApplication\\Pages\\RecomendationPage.xaml",
+              "ToolTip": "E:\\VisualStudio\\DonorService\\DonorApplication\\Pages\\RecomendationPage.xaml",
+              "RelativeToolTip": "DonorApplication\\Pages\\RecomendationPage.xaml",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAACwAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-06-08T18:45:15.315Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EditProfileViewModel.cs",
+              "DocumentMoniker": "E:\\VisualStudio\\DonorService\\DonorApplication\\ViewModel\\EditProfileViewModel.cs",
+              "RelativeDocumentMoniker": "DonorApplication\\ViewModel\\EditProfileViewModel.cs",
+              "ToolTip": "E:\\VisualStudio\\DonorService\\DonorApplication\\ViewModel\\EditProfileViewModel.cs",
+              "RelativeToolTip": "DonorApplication\\ViewModel\\EditProfileViewModel.cs",
+              "ViewState": "AgIAAGIAAAAAAAAAAAAhwDgAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-08T08:22:11.765Z",
+              "WhenOpened": "2025-06-08T18:37:16.886Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EditProfilePage.xaml",
+              "DocumentMoniker": "E:\\VisualStudio\\DonorService\\DonorApplication\\Pages\\EditProfilePage.xaml",
+              "RelativeDocumentMoniker": "DonorApplication\\Pages\\EditProfilePage.xaml",
+              "ToolTip": "E:\\VisualStudio\\DonorService\\DonorApplication\\Pages\\EditProfilePage.xaml",
+              "RelativeToolTip": "DonorApplication\\Pages\\EditProfilePage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-06-08T15:56:37.207Z",
               "EditorCaption": ""
             }
           ]
