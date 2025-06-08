@@ -24,6 +24,14 @@ namespace DonorApplication.ViewModel
 		[ObservableProperty]
 		private bool isRequest;
 
+		[ObservableProperty]
+		private DateTime dateOnly;
+
+		partial void OnDateOnlyChanged(DateTime oldValue, DateTime newValue)
+		{
+			
+		}
+
 		public RecordsViewModel(Page page, UserData userData)
 		{
 			this.page = page;
@@ -32,6 +40,8 @@ namespace DonorApplication.ViewModel
 
 			IsNotAuth = userData.Donor == null;
 			IsAuthAcount = userData.Donor != null;
+
+			DateOnly = DateTime.Now.Date;
 
 			LoadDiliveryPoints(DiliveryPoints);
 		}
@@ -79,13 +89,14 @@ namespace DonorApplication.ViewModel
 			try
 			{
 				IsRequest = true;
-
+				string json = JsonConvert.SerializeObject(DateOnly);
 				await Task.Delay(1000);
 
 				var request = new HttpRequestMessage
 				{
 					Method = HttpMethod.Post,
 					RequestUri = new Uri("http://localhost:5292/Addrecods"),
+					Content = new StringContent(json, null, "application/json"),
 				};
 
 				request.Headers.Add("donorid", _userData.Donor.Id.ToString());

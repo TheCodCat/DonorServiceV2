@@ -12,13 +12,13 @@ namespace DonorService.Controllers.Records
     {
         [HttpPost("/Addrecods")]
         [EndpointSummary("Запись на сдачу")]
-        public async Task<ActionResult> RecordDilivery([FromHeader] int donorid, [FromHeader] int diliveryPointId)
+        public async Task<ActionResult> RecordDilivery([FromHeader] int donorid, [FromHeader] int diliveryPointId, [FromBody] DateTime dateOnly)
         {
             try
             {
                 var donor = diliveryContext.Donors.FirstOrDefault(x => x.Id == donorid);
                 var point = diliveryContext.DiliveryPoints.FirstOrDefault(x => x.Id == diliveryPointId);
-                Record record = new Record() { DiliveryPoint = point, Donor = donor };
+                Record record = new Record() { DiliveryPoint = point, Donor = donor, DateOnly = dateOnly };
                 diliveryContext.Records.Add(record);
                 await diliveryContext.SaveChangesAsync();
 

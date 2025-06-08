@@ -31,13 +31,18 @@ namespace DonorApplication.ViewModel
                 BloodTypeEnum.TwoPlus, BloodTypeEnum.TwoMinus,
             };
 
+		[ObservableProperty]
+		private List<Record> historyPoints = new List<Record>();
+
         [ObservableProperty]
         private Donor donor;
 
         partial void OnDonorChanged(Donor value)
         {
             ChangeViewData(value);
-        }
+            GetHistory(value);
+
+		}
 
         [ObservableProperty]
         private bool isNotAuth;
@@ -55,7 +60,7 @@ namespace DonorApplication.ViewModel
 
             IsNotAuth = Donor == null;
             IsAuthAcount = !isNotAuth;
-            IsEditProfile = Donor.IsEdit;
+            IsEditProfile = Donor == null ? false : Donor.IsEdit;
             //ChangeViewData();
 		}
 
@@ -83,7 +88,7 @@ namespace DonorApplication.ViewModel
             if (IsEditProfile)
             {
                 SelectTypeBlood = Donor.BloodTypeEnum;
-
+				ChangeViewData(Donor);
 				return;
             }
 
@@ -108,6 +113,25 @@ namespace DonorApplication.ViewModel
 				response.EnsureSuccessStatusCode();
 				var body = await response.Content.ReadAsStringAsync();
 				Donor = JsonConvert.DeserializeObject<Donor>(body);
+			}
+		}
+
+        private async void GetHistory(Donor donor)
+        {
+			var request = new HttpRequestMessage
+			{
+				Method = HttpMethod.Get,
+				RequestUri = new Uri("http://localhost:5292/GetDonorRecords"),
+				Headers =
+				{
+					{ "DonorId", donor.Id.ToString() },
+				},
+			};
+			using (var response = await _httpClient.SendAsync(request))
+			{
+				response.EnsureSuccessStatusCode();
+				var body = await response.Content.ReadAsStringAsync();
+				HistoryPoints = JsonConvert.DeserializeObject<List<Record>>(body) ?? new List<Record>();
 			}
 		}
     }

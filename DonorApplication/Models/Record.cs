@@ -10,5 +10,6 @@ namespace Models.Models
         [ForeignKey("DonorId")] public Donor? Donor { get; set; }
         public int DiliveryPointId { get; set; }
         [ForeignKey("DiliveryPointId")] public DiliveryPoint? DiliveryPoint { get; set; }
-    }
+		public DateTime DateOnly { get; set; }
+	}
 }
