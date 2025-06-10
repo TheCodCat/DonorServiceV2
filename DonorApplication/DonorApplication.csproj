@@ -60,6 +60,31 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <None Remove="Resources\Images\logos\main_icon.png" />
+	  <None Remove="Resources\Images\logos\main_icon_tomsk.png" />
+	  <None Remove="Resources\Images\logos\m_icon.jpg" />
+	  <None Remove="Resources\Images\logos\newsibirsk_icon.jpeg" />
+	  <None Remove="Resources\Images\logos\niz_icon.png" />
+	  <None Remove="Resources\Images\logos\reds_icon.jpg" />
+	  <None Remove="Resources\Images\logos\sam_icon.jpg" />
+	  <None Remove="Resources\Images\logos\sbp_icon.jpg" />
+	  <None Remove="Resources\Images\logos\spk_icon.png" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <MauiImage Include="Resources\Images\logos\centr_krovi_kzn.jpg" />
+	  <MauiImage Include="Resources\Images\logos\main_icon.png" />
+	  <MauiImage Include="Resources\Images\logos\main_icon_tomsk.png" />
+	  <MauiImage Include="Resources\Images\logos\m_icon.jpg" />
+	  <MauiImage Include="Resources\Images\logos\newsibirsk_icon.jpeg" />
+	  <MauiImage Include="Resources\Images\logos\niz_icon.png" />
+	  <MauiImage Include="Resources\Images\logos\reds_icon.jpg" />
+	  <MauiImage Include="Resources\Images\logos\sam_icon.jpg" />
+	  <MauiImage Include="Resources\Images\logos\sbp_icon.jpg" />
+	  <MauiImage Include="Resources\Images\logos\spk_icon.png" />
+	</ItemGroup>
+
+	<ItemGroup>
 		<PackageReference Include="CommunityToolkit.Mvvm" Version="8.4.0" />
 		<PackageReference Include="InputKit.Maui" Version="4.5.1" />
 		<PackageReference Include="Microsoft.Maui.Controls" Version="9.0.70" />
