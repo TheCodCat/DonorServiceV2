@@ -6,7 +6,6 @@
              xmlns:input="clr-namespace:InputKit.Shared.Controls;assembly=InputKit.Maui"
              xmlns:validation="clr-namespace:InputKit.Shared.Validations;assembly=InputKit.Maui"
              xmlns:viewmodel="clr-namespace:DonorApplication.ViewModel"
-             xmlns:fa="clr-namespace:UraniumUI.Icons.FontAwesome;assembly=UraniumUI.Icons.FontAwesome"
              xmlns:uranium="http://schemas.enisn-projects.io/dotnet/maui/uraniumui">
 
     <Grid>
