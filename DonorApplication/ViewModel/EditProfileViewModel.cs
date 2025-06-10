@@ -29,6 +29,8 @@ namespace DonorApplication.ViewModel
             { 
                 BloodTypeEnum.OnePlus, BloodTypeEnum.OneMinus,
                 BloodTypeEnum.TwoPlus, BloodTypeEnum.TwoMinus,
+				BloodTypeEnum.TreePlus, BloodTypeEnum.TreeMinus,
+				BloodTypeEnum.FourPlus, BloodTypeEnum.FourMinus
             };
 
 		[ObservableProperty]
@@ -129,6 +131,7 @@ namespace DonorApplication.ViewModel
 					{ "DonorId", donor.Id.ToString() },
 				},
 			};
+
 			using (var response = await _httpClient.SendAsync(request))
 			{
 				response.EnsureSuccessStatusCode();

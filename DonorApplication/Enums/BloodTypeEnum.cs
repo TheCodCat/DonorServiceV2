@@ -2,6 +2,6 @@
 {
     public enum BloodTypeEnum
 	{
-		OnePlus, OneMinus, TwoPlus, TwoMinus, TreePlus, TreeMinus, FourPlus
+		OnePlus, OneMinus, TwoPlus, TwoMinus, TreePlus, TreeMinus, FourPlus, FourMinus
 	}
 }
