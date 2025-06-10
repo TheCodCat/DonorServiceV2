@@ -114,7 +114,7 @@ namespace DonorApplication.ViewModel
 			}
 			catch (HttpRequestException ex)
 			{
-				CallbackText = ex.Message;
+				CallbackText = "Логин уже занят, попробуйте другой";
 				page.ChangeText(Color.FromRgb(255, 0, 0));
 			}
 			finally

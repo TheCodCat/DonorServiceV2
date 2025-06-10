@@ -20,7 +20,7 @@
             <ColumnDefinition Width="Auto"/>
             <ColumnDefinition Width="1*"/>
         </Grid.ColumnDefinitions>
-        <VerticalStackLayout WidthRequest="300" Grid.Row="1" Grid.Column="1" Spacing="10">
+        <VerticalStackLayout WidthRequest="300" Grid.Row="1" Grid.Column="1" Spacing="5">
 
             <Grid>
                 <Grid.ColumnDefinitions>
@@ -32,7 +32,7 @@
                     <RowDefinition Height="1*"/>
                 </Grid.RowDefinitions>
 
-                <Border HeightRequest="125" WidthRequest="125" Grid.Column="0" Grid.ColumnSpan="3" BackgroundColor="White">
+                <Border HeightRequest="125" WidthRequest="125" Grid.Column="0" Grid.ColumnSpan="3" BackgroundColor="White" StyleClass="Elevation1">
                     <Image Source="icon.png" HeightRequest="100"/>
 
                     <Border.StrokeShape>
@@ -43,7 +43,7 @@
 
             <Label Text="Авторизация" HorizontalTextAlignment="Center" FontSize="24"/>
 
-            <input:FormView SubmitCommand="{Binding AuthorizationCommand}" Spacing="10">
+            <input:FormView SubmitCommand="{Binding AuthorizationCommand}" Spacing="5">
 
                 <material:TextField Title="Login" Text="{Binding Login}" MaxLength="20">
                     <validation:RequiredValidation Message="Введите логин" />
@@ -63,14 +63,12 @@
                             input:FormView.IsSubmitButton="True"
                             StyleClass="FilledButton"
                             FontAttributes="Bold"/>
-
-                <BoxView StyleClass="Divider"/>
             </input:FormView>
 
             <Button Text="Регистрация"
-                            TextColor="White"
-                            FontSize="20"
-                            StyleClass="FilledButton"
+                    HorizontalOptions="Start"
+                            FontSize="16"
+                            StyleClass="TextButton"
                             FontAttributes="Bold"
                             Command="{Binding RegistrationCommand}"/>
 
