@@ -25,6 +25,7 @@
                 <ImageButton Source="recomendation_image.png" Aspect="AspectFit" Command="{Binding MoveToRecomendationCommand}"/>
 
                 <DatePicker MinimumDate="01/01/2020" MaximumDate="01/01/2030" HorizontalOptions="Center" Margin="20" Date="{Binding DateOnly}"/>
+                <BoxView StyleClass="Divider"/>
                 <CollectionView ItemsSource="{Binding DiliveryPoints}" SelectionMode="None" Margin="30,0,30,0">
                     <CollectionView.ItemTemplate>
                         <DataTemplate>

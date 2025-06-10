@@ -62,6 +62,8 @@ namespace DonorApplication.ViewModel
             IsEditProfile = Donor == null ? false : Donor.IsEdit;
 		}
 
+		public async void GetHistoryOpen() => GetHistory(Donor);
+
         private void ChangeViewData(Donor donor)
         {
             if (donor == null) return;
@@ -116,6 +118,8 @@ namespace DonorApplication.ViewModel
 
         private async void GetHistory(Donor donor)
         {
+			if(donor == null) return;
+
 			var request = new HttpRequestMessage
 			{
 				Method = HttpMethod.Get,

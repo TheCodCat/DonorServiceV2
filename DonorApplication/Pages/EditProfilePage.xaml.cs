@@ -16,5 +16,6 @@ public partial class EditProfilePage : ContentPage
     {
         base.OnAppearing();
 		editProfileViewModel.Init();
+		editProfileViewModel.GetHistoryOpen();
     }
 }
