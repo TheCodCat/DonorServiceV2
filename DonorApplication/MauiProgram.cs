@@ -20,6 +20,7 @@ namespace DonorApplication
 					fonts.AddFont("OpenSans-Semibold.ttf", "OpenSansSemibold");
 					fonts.AddFontAwesomeIconFonts();
 				});
+			Eliseev.MauiXamlBase64ImageToolkit.Controls.Init();
 			builder.Services.AddSingleton<AuthorizationViewModel>();
 			builder.Services.AddSingleton<EditProfileViewModel>();
 			builder.Services.AddSingleton<UserData>();
