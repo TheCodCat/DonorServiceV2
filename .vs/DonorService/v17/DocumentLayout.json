@@ -1,18 +1,14 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "E:\\VisualStudio\\DonorService\\",
+  "WorkspaceRootPath": "E:\\VisualStudio\\DonorServiceV2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7BB8FDC4-65F0-421B-8C36-13B36D8904C7}|DonorApplication\\DonorApplication.csproj|e:\\visualstudio\\donorservice\\donorapplication\\viewmodel\\editprofileviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7BB8FDC4-65F0-421B-8C36-13B36D8904C7}|DonorApplication\\DonorApplication.csproj|e:\\visualstudio\\donorservicev2\\donorapplication\\viewmodel\\editprofileviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7BB8FDC4-65F0-421B-8C36-13B36D8904C7}|DonorApplication\\DonorApplication.csproj|solutionrelative:donorapplication\\viewmodel\\editprofileviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7BB8FDC4-65F0-421B-8C36-13B36D8904C7}|DonorApplication\\DonorApplication.csproj|e:\\visualstudio\\donorservice\\donorapplication\\pages\\editprofilepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{7BB8FDC4-65F0-421B-8C36-13B36D8904C7}|DonorApplication\\DonorApplication.csproj|solutionrelative:donorapplication\\pages\\editprofilepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7BB8FDC4-65F0-421B-8C36-13B36D8904C7}|DonorApplication\\DonorApplication.csproj|e:\\visualstudio\\donorservice\\donorapplication\\pages\\editprofilepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7BB8FDC4-65F0-421B-8C36-13B36D8904C7}|DonorApplication\\DonorApplication.csproj|solutionrelative:donorapplication\\pages\\editprofilepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A9B83AFA-179E-47A8-9D29-399E6BE2D10F}|DonorService\\DonorService.csproj|e:\\visualstudio\\donorservicev2\\donorservice\\controllers\\editingprofile\\editingprofilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9B83AFA-179E-47A8-9D29-399E6BE2D10F}|DonorService\\DonorService.csproj|solutionrelative:donorservice\\controllers\\editingprofile\\editingprofilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,41 +30,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "EditProfilePage.xaml.cs",
-              "DocumentMoniker": "E:\\VisualStudio\\DonorService\\DonorApplication\\Pages\\EditProfilePage.xaml.cs",
-              "RelativeDocumentMoniker": "DonorApplication\\Pages\\EditProfilePage.xaml.cs",
-              "ToolTip": "E:\\VisualStudio\\DonorService\\DonorApplication\\Pages\\EditProfilePage.xaml.cs",
-              "RelativeToolTip": "DonorApplication\\Pages\\EditProfilePage.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwBIAAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-18T18:24:29.259Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "EditProfilePage.xaml",
-              "DocumentMoniker": "E:\\VisualStudio\\DonorService\\DonorApplication\\Pages\\EditProfilePage.xaml",
-              "RelativeDocumentMoniker": "DonorApplication\\Pages\\EditProfilePage.xaml",
-              "ToolTip": "E:\\VisualStudio\\DonorService\\DonorApplication\\Pages\\EditProfilePage.xaml*",
-              "RelativeToolTip": "DonorApplication\\Pages\\EditProfilePage.xaml*",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAcwCAAAABtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-06-18T18:21:39.876Z",
+              "Title": "EditingProfileController.cs",
+              "DocumentMoniker": "E:\\VisualStudio\\DonorServiceV2\\DonorService\\Controllers\\EditingProfile\\EditingProfileController.cs",
+              "RelativeDocumentMoniker": "DonorService\\Controllers\\EditingProfile\\EditingProfileController.cs",
+              "ToolTip": "E:\\VisualStudio\\DonorServiceV2\\DonorService\\Controllers\\EditingProfile\\EditingProfileController.cs",
+              "RelativeToolTip": "DonorService\\Controllers\\EditingProfile\\EditingProfileController.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAqwCcAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T19:30:36.701Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "EditProfileViewModel.cs",
-              "DocumentMoniker": "E:\\VisualStudio\\DonorService\\DonorApplication\\ViewModel\\EditProfileViewModel.cs",
+              "DocumentMoniker": "E:\\VisualStudio\\DonorServiceV2\\DonorApplication\\ViewModel\\EditProfileViewModel.cs",
               "RelativeDocumentMoniker": "DonorApplication\\ViewModel\\EditProfileViewModel.cs",
-              "ToolTip": "E:\\VisualStudio\\DonorService\\DonorApplication\\ViewModel\\EditProfileViewModel.cs",
+              "ToolTip": "E:\\VisualStudio\\DonorServiceV2\\DonorApplication\\ViewModel\\EditProfileViewModel.cs",
               "RelativeToolTip": "DonorApplication\\ViewModel\\EditProfileViewModel.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAjwC0AAAAOAAAAAAAAAA==",
+              "ViewState": "AgIAAKIAAAAAAAAAAAAkwLYAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-18T18:20:06.473Z",
+              "WhenOpened": "2025-06-18T19:30:21.255Z",
               "EditorCaption": ""
             }
           ]

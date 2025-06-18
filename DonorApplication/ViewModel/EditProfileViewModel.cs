@@ -159,7 +159,29 @@ namespace DonorApplication.ViewModel
                 clone.Base64Image = base64;
 
                 userData.Donor = clone;
-                Donor = clone;
+
+                var request = new HttpRequestMessage
+                {
+                    Method = HttpMethod.Post,
+                    RequestUri = new Uri("http://localhost:5292/EditingProfile/changeProfileIcon"),
+                    Headers =
+                    {
+                        { "DonorId", $"{userData.Donor.Id}" },
+                    },
+                    Content = new StringContent($"\"{userData.Donor.Base64Image}\"")
+                    {
+                        Headers =
+                        {
+                            ContentType = new MediaTypeHeaderValue("application/json")
+                        }
+                    }
+                };
+                using (var response = await _httpClient.SendAsync(request))
+                {
+                    response.EnsureSuccessStatusCode();
+                    var body = await response.Content.ReadAsStringAsync();
+                    Donor = JsonConvert.DeserializeObject<Donor>(body);
+                }
             }
 
         }

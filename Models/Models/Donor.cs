@@ -11,5 +11,6 @@ namespace Models.Models
         public string Password { get; set; } = string.Empty;
         public BloodTypeEnum BloodTypeEnum { get; set; }
         public bool IsEdit { get; set; }
+        public string Base64Image { get; set; } = string.Empty;
     }
 }

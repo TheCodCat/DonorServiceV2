@@ -46,6 +46,10 @@ namespace Database.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("INTEGER");
 
+                    b.Property<string>("Base64Image")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
                     b.Property<int>("BloodTypeEnum")
                         .HasColumnType("INTEGER");
 
