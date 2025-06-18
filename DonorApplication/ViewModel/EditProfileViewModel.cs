@@ -1,6 +1,7 @@
 ﻿using CommunityToolkit.Mvvm.ComponentModel;
 using CommunityToolkit.Mvvm.Input;
 using DonorApplication.Singlton;
+using Force.DeepCloner;
 using Models.Enums;
 using Models.Models;
 using Newtonsoft.Json;
@@ -42,8 +43,7 @@ namespace DonorApplication.ViewModel
         partial void OnDonorChanged(Donor value)
         {
             ChangeViewData(value);
-            GetHistory(value);
-
+            //GetHistory(value);
 		}
 
         [ObservableProperty]
@@ -139,5 +139,29 @@ namespace DonorApplication.ViewModel
 				HistoryPoints = JsonConvert.DeserializeObject<List<Record>>(body) ?? new List<Record>();
 			}
 		}
+
+        [RelayCommand]
+        private async void ChangeIconProfile()
+        {
+            var result = await FilePicker.PickAsync(PickOptions.Images);
+            if (result == null) return;
+
+            var stream = await result.OpenReadAsync();
+            MemoryStream memoryStream = new MemoryStream();
+            await stream.CopyToAsync(memoryStream);
+
+            string base64 = Convert.ToBase64String(memoryStream.ToArray());
+
+            if (Donor is not null)
+            {
+                var clone = userData.Donor.DeepClone();
+
+                clone.Base64Image = base64;
+
+                userData.Donor = clone;
+                Donor = clone;
+            }
+
+        }
     }
 }

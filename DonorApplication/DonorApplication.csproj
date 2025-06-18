@@ -86,6 +86,8 @@
 
 	<ItemGroup>
 		<PackageReference Include="CommunityToolkit.Mvvm" Version="8.4.0" />
+		<PackageReference Include="DeepCloner" Version="0.10.4" />
+		<PackageReference Include="Eliseev.MauiXamlBase64ImageToolkit" Version="1.0.0" />
 		<PackageReference Include="InputKit.Maui" Version="4.5.1" />
 		<PackageReference Include="Microsoft.Maui.Controls" Version="9.0.70" />
 		<PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="9.0.0" />

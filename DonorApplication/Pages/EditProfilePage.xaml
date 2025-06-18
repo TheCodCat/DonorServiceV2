@@ -7,7 +7,8 @@
              xmlns:validation="clr-namespace:InputKit.Shared.Validations;assembly=InputKit.Maui"
              xmlns:viewmodel="clr-namespace:DonorApplication.ViewModel"
              xmlns:fa="clr-namespace:UraniumUI.Icons.FontAwesome;assembly=UraniumUI.Icons.FontAwesome"
-             xmlns:uranium="http://schemas.enisn-projects.io/dotnet/maui/uraniumui">
+             xmlns:uranium="http://schemas.enisn-projects.io/dotnet/maui/uraniumui"
+             xmlns:base64Control="http://eliseev/base64Image">
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="1*"/>
@@ -29,8 +30,11 @@
                     IsEnabled="{Binding IsAuthAcount}" IsVisible="{Binding IsAuthAcount}">
             <VerticalStackLayout Spacing="10" Margin="5" x:Name="ProfileData" HeightRequest="350">
                 <Border BackgroundColor="White" HeightRequest="75" WidthRequest="75">
-                    <Label Text="{Binding FullNameIcon}" TextColor="Blue" FontSize="40" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"/>
-
+                    <base64Control:ImageBase64 Base64Source="{Binding Donor.Base64Image}" Aspect="AspectFill">
+                        <base64Control:ImageBase64.GestureRecognizers>
+                            <TapGestureRecognizer Command="{Binding ChangeIconProfileCommand}"/>
+                        </base64Control:ImageBase64.GestureRecognizers>
+                    </base64Control:ImageBase64>
                     <Border.StrokeShape>
                         <RoundRectangle CornerRadius="99"/>
                     </Border.StrokeShape>

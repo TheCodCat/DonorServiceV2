@@ -1,65 +1,18 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Public\\DonorServiceV2\\",
+  "WorkspaceRootPath": "E:\\VisualStudio\\DonorService\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7BB8FDC4-65F0-421B-8C36-13B36D8904C7}|DonorApplication\\DonorApplication.csproj|c:\\users\\public\\donorservicev2\\donorapplication\\viewmodel\\authorizationviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7BB8FDC4-65F0-421B-8C36-13B36D8904C7}|DonorApplication\\DonorApplication.csproj|solutionrelative:donorapplication\\viewmodel\\authorizationviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A9B83AFA-179E-47A8-9D29-399E6BE2D10F}|DonorService\\DonorService.csproj|c:\\users\\public\\donorservicev2\\donorservice\\controllers\\auth\\authorizationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A9B83AFA-179E-47A8-9D29-399E6BE2D10F}|DonorService\\DonorService.csproj|solutionrelative:donorservice\\controllers\\auth\\authorizationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A9B83AFA-179E-47A8-9D29-399E6BE2D10F}|DonorService\\DonorService.csproj|c:\\users\\public\\donorservicev2\\donorservice\\donorservice.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{A9B83AFA-179E-47A8-9D29-399E6BE2D10F}|DonorService\\DonorService.csproj|solutionrelative:donorservice\\donorservice.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7BB8FDC4-65F0-421B-8C36-13B36D8904C7}|DonorApplication\\DonorApplication.csproj|c:\\users\\public\\donorservicev2\\donorapplication\\pages\\authorizationpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{7BB8FDC4-65F0-421B-8C36-13B36D8904C7}|DonorApplication\\DonorApplication.csproj|solutionrelative:donorapplication\\pages\\authorizationpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7BB8FDC4-65F0-421B-8C36-13B36D8904C7}|DonorApplication\\DonorApplication.csproj|c:\\users\\public\\donorservicev2\\donorapplication\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7BB8FDC4-65F0-421B-8C36-13B36D8904C7}|DonorApplication\\DonorApplication.csproj|solutionrelative:donorapplication\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7BB8FDC4-65F0-421B-8C36-13B36D8904C7}|DonorApplication\\DonorApplication.csproj|c:\\users\\public\\donorservicev2\\donorapplication\\pages\\recordpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7BB8FDC4-65F0-421B-8C36-13B36D8904C7}|DonorApplication\\DonorApplication.csproj|solutionrelative:donorapplication\\pages\\recordpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7BB8FDC4-65F0-421B-8C36-13B36D8904C7}|DonorApplication\\DonorApplication.csproj|c:\\users\\public\\donorservicev2\\donorapplication\\pages\\recomendationpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7BB8FDC4-65F0-421B-8C36-13B36D8904C7}|DonorApplication\\DonorApplication.csproj|solutionrelative:donorapplication\\pages\\recomendationpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7BB8FDC4-65F0-421B-8C36-13B36D8904C7}|DonorApplication\\DonorApplication.csproj|c:\\users\\public\\donorservicev2\\donorapplication\\pages\\authorizationpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7BB8FDC4-65F0-421B-8C36-13B36D8904C7}|DonorApplication\\DonorApplication.csproj|solutionrelative:donorapplication\\pages\\authorizationpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7BB8FDC4-65F0-421B-8C36-13B36D8904C7}|DonorApplication\\DonorApplication.csproj|c:\\users\\public\\donorservicev2\\donorapplication\\pages\\editprofilepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7BB8FDC4-65F0-421B-8C36-13B36D8904C7}|DonorApplication\\DonorApplication.csproj|solutionrelative:donorapplication\\pages\\editprofilepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7BB8FDC4-65F0-421B-8C36-13B36D8904C7}|DonorApplication\\DonorApplication.csproj|c:\\users\\public\\donorservicev2\\donorapplication\\pages\\editprofilepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{7BB8FDC4-65F0-421B-8C36-13B36D8904C7}|DonorApplication\\DonorApplication.csproj|solutionrelative:donorapplication\\pages\\editprofilepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7BB8FDC4-65F0-421B-8C36-13B36D8904C7}|DonorApplication\\DonorApplication.csproj|c:\\users\\public\\donorservicev2\\donorapplication\\viewmodel\\editprofileviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7BB8FDC4-65F0-421B-8C36-13B36D8904C7}|DonorApplication\\DonorApplication.csproj|e:\\visualstudio\\donorservice\\donorapplication\\viewmodel\\editprofileviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7BB8FDC4-65F0-421B-8C36-13B36D8904C7}|DonorApplication\\DonorApplication.csproj|solutionrelative:donorapplication\\viewmodel\\editprofileviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7BB8FDC4-65F0-421B-8C36-13B36D8904C7}|DonorApplication\\DonorApplication.csproj|c:\\users\\public\\donorservicev2\\donorapplication\\pages\\recordpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{7BB8FDC4-65F0-421B-8C36-13B36D8904C7}|DonorApplication\\DonorApplication.csproj|solutionrelative:donorapplication\\pages\\recordpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{7BB8FDC4-65F0-421B-8C36-13B36D8904C7}|DonorApplication\\DonorApplication.csproj|e:\\visualstudio\\donorservice\\donorapplication\\pages\\editprofilepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{7BB8FDC4-65F0-421B-8C36-13B36D8904C7}|DonorApplication\\DonorApplication.csproj|solutionrelative:donorapplication\\pages\\editprofilepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7BB8FDC4-65F0-421B-8C36-13B36D8904C7}|DonorApplication\\DonorApplication.csproj|c:\\users\\public\\donorservicev2\\donorapplication\\pages\\recomendationpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{7BB8FDC4-65F0-421B-8C36-13B36D8904C7}|DonorApplication\\DonorApplication.csproj|solutionrelative:donorapplication\\pages\\recomendationpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7BB8FDC4-65F0-421B-8C36-13B36D8904C7}|DonorApplication\\DonorApplication.csproj|c:\\users\\public\\donorservicev2\\donorapplication\\viewmodel\\recordsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7BB8FDC4-65F0-421B-8C36-13B36D8904C7}|DonorApplication\\DonorApplication.csproj|solutionrelative:donorapplication\\viewmodel\\recordsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\VR\\.nuget\\packages\\microsoft.maui.resizetizer\\9.0.70\\buildTransitive\\Microsoft.Maui.Resizetizer.After.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{7BB8FDC4-65F0-421B-8C36-13B36D8904C7}|DonorApplication\\DonorApplication.csproj|e:\\visualstudio\\donorservice\\donorapplication\\pages\\editprofilepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BB8FDC4-65F0-421B-8C36-13B36D8904C7}|DonorApplication\\DonorApplication.csproj|solutionrelative:donorapplication\\pages\\editprofilepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -69,205 +22,53 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "AuthorizationViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\Public\\DonorServiceV2\\DonorApplication\\ViewModel\\AuthorizationViewModel.cs",
-              "RelativeDocumentMoniker": "DonorApplication\\ViewModel\\AuthorizationViewModel.cs",
-              "ToolTip": "C:\\Users\\Public\\DonorServiceV2\\DonorApplication\\ViewModel\\AuthorizationViewModel.cs",
-              "RelativeToolTip": "DonorApplication\\ViewModel\\AuthorizationViewModel.cs",
-              "ViewState": "AgIAAF4AAAAAAAAAAAAkwHIAAAAiAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "EditProfilePage.xaml.cs",
+              "DocumentMoniker": "E:\\VisualStudio\\DonorService\\DonorApplication\\Pages\\EditProfilePage.xaml.cs",
+              "RelativeDocumentMoniker": "DonorApplication\\Pages\\EditProfilePage.xaml.cs",
+              "ToolTip": "E:\\VisualStudio\\DonorService\\DonorApplication\\Pages\\EditProfilePage.xaml.cs",
+              "RelativeToolTip": "DonorApplication\\Pages\\EditProfilePage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwBIAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-10T05:17:54.047Z",
+              "WhenOpened": "2025-06-18T18:24:29.259Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "AuthorizationController.cs",
-              "DocumentMoniker": "C:\\Users\\Public\\DonorServiceV2\\DonorService\\Controllers\\Auth\\AuthorizationController.cs",
-              "RelativeDocumentMoniker": "DonorService\\Controllers\\Auth\\AuthorizationController.cs",
-              "ToolTip": "C:\\Users\\Public\\DonorServiceV2\\DonorService\\Controllers\\Auth\\AuthorizationController.cs",
-              "RelativeToolTip": "DonorService\\Controllers\\Auth\\AuthorizationController.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAxwA8AAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-10T05:16:58.291Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "DonorService",
-              "DocumentMoniker": "C:\\Users\\Public\\DonorServiceV2\\DonorService\\DonorService.csproj",
-              "RelativeDocumentMoniker": "DonorService\\DonorService.csproj",
-              "ToolTip": "C:\\Users\\Public\\DonorServiceV2\\DonorService\\DonorService.csproj",
-              "RelativeToolTip": "DonorService\\DonorService.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-06-10T05:16:55.665Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "AuthorizationPage.xaml",
-              "DocumentMoniker": "C:\\Users\\Public\\DonorServiceV2\\DonorApplication\\Pages\\AuthorizationPage.xaml",
-              "RelativeDocumentMoniker": "DonorApplication\\Pages\\AuthorizationPage.xaml",
-              "ToolTip": "C:\\Users\\Public\\DonorServiceV2\\DonorApplication\\Pages\\AuthorizationPage.xaml",
-              "RelativeToolTip": "DonorApplication\\Pages\\AuthorizationPage.xaml",
-              "ViewState": "AgIAADkAAAAAAAAAAAAAAEgAAABFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-06-10T05:07:58.791Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "MauiProgram.cs",
-              "DocumentMoniker": "C:\\Users\\Public\\DonorServiceV2\\DonorApplication\\MauiProgram.cs",
-              "RelativeDocumentMoniker": "DonorApplication\\MauiProgram.cs",
-              "ToolTip": "C:\\Users\\Public\\DonorServiceV2\\DonorApplication\\MauiProgram.cs",
-              "RelativeToolTip": "DonorApplication\\MauiProgram.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABQAAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-10T05:06:26.752Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "RecordPage.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\Public\\DonorServiceV2\\DonorApplication\\Pages\\RecordPage.xaml.cs",
-              "RelativeDocumentMoniker": "DonorApplication\\Pages\\RecordPage.xaml.cs",
-              "ToolTip": "C:\\Users\\Public\\DonorServiceV2\\DonorApplication\\Pages\\RecordPage.xaml.cs",
-              "RelativeToolTip": "DonorApplication\\Pages\\RecordPage.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-10T05:06:21.532Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "RecomendationPage.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\Public\\DonorServiceV2\\DonorApplication\\Pages\\RecomendationPage.xaml.cs",
-              "RelativeDocumentMoniker": "DonorApplication\\Pages\\RecomendationPage.xaml.cs",
-              "ToolTip": "C:\\Users\\Public\\DonorServiceV2\\DonorApplication\\Pages\\RecomendationPage.xaml.cs",
-              "RelativeToolTip": "DonorApplication\\Pages\\RecomendationPage.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-10T05:06:18.786Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "AuthorizationPage.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\Public\\DonorServiceV2\\DonorApplication\\Pages\\AuthorizationPage.xaml.cs",
-              "RelativeDocumentMoniker": "DonorApplication\\Pages\\AuthorizationPage.xaml.cs",
-              "ToolTip": "C:\\Users\\Public\\DonorServiceV2\\DonorApplication\\Pages\\AuthorizationPage.xaml.cs",
-              "RelativeToolTip": "DonorApplication\\Pages\\AuthorizationPage.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-10T05:06:15.526Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "EditProfilePage.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\Public\\DonorServiceV2\\DonorApplication\\Pages\\EditProfilePage.xaml.cs",
-              "RelativeDocumentMoniker": "DonorApplication\\Pages\\EditProfilePage.xaml.cs",
-              "ToolTip": "C:\\Users\\Public\\DonorServiceV2\\DonorApplication\\Pages\\EditProfilePage.xaml.cs",
-              "RelativeToolTip": "DonorApplication\\Pages\\EditProfilePage.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-10T04:59:19.546Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
               "Title": "EditProfilePage.xaml",
-              "DocumentMoniker": "C:\\Users\\Public\\DonorServiceV2\\DonorApplication\\Pages\\EditProfilePage.xaml",
+              "DocumentMoniker": "E:\\VisualStudio\\DonorService\\DonorApplication\\Pages\\EditProfilePage.xaml",
               "RelativeDocumentMoniker": "DonorApplication\\Pages\\EditProfilePage.xaml",
-              "ToolTip": "C:\\Users\\Public\\DonorServiceV2\\DonorApplication\\Pages\\EditProfilePage.xaml",
-              "RelativeToolTip": "DonorApplication\\Pages\\EditProfilePage.xaml",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ToolTip": "E:\\VisualStudio\\DonorService\\DonorApplication\\Pages\\EditProfilePage.xaml*",
+              "RelativeToolTip": "DonorApplication\\Pages\\EditProfilePage.xaml*",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAcwCAAAABtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-06-10T04:59:17.223Z",
+              "WhenOpened": "2025-06-18T18:21:39.876Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 0,
               "Title": "EditProfileViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\Public\\DonorServiceV2\\DonorApplication\\ViewModel\\EditProfileViewModel.cs",
+              "DocumentMoniker": "E:\\VisualStudio\\DonorService\\DonorApplication\\ViewModel\\EditProfileViewModel.cs",
               "RelativeDocumentMoniker": "DonorApplication\\ViewModel\\EditProfileViewModel.cs",
-              "ToolTip": "C:\\Users\\Public\\DonorServiceV2\\DonorApplication\\ViewModel\\EditProfileViewModel.cs",
+              "ToolTip": "E:\\VisualStudio\\DonorService\\DonorApplication\\ViewModel\\EditProfileViewModel.cs",
               "RelativeToolTip": "DonorApplication\\ViewModel\\EditProfileViewModel.cs",
-              "ViewState": "AgIAAD0AAAAAAAAAAAAwwHkAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABUAAAAAAAAAAAAjwC0AAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-10T04:57:28.302Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Microsoft.Maui.Resizetizer.After.targets",
-              "DocumentMoniker": "C:\\Users\\VR\\.nuget\\packages\\microsoft.maui.resizetizer\\9.0.70\\buildTransitive\\Microsoft.Maui.Resizetizer.After.targets",
-              "RelativeDocumentMoniker": "..\\..\\VR\\.nuget\\packages\\microsoft.maui.resizetizer\\9.0.70\\buildTransitive\\Microsoft.Maui.Resizetizer.After.targets",
-              "ToolTip": "C:\\Users\\VR\\.nuget\\packages\\microsoft.maui.resizetizer\\9.0.70\\buildTransitive\\Microsoft.Maui.Resizetizer.After.targets",
-              "RelativeToolTip": "..\\..\\VR\\.nuget\\packages\\microsoft.maui.resizetizer\\9.0.70\\buildTransitive\\Microsoft.Maui.Resizetizer.After.targets",
-              "ViewState": "AgIAAGECAAAAAAAAAAAgwHECAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
-              "WhenOpened": "2025-06-10T04:47:04.584Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "RecordsViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\Public\\DonorServiceV2\\DonorApplication\\ViewModel\\RecordsViewModel.cs",
-              "RelativeDocumentMoniker": "DonorApplication\\ViewModel\\RecordsViewModel.cs",
-              "ToolTip": "C:\\Users\\Public\\DonorServiceV2\\DonorApplication\\ViewModel\\RecordsViewModel.cs",
-              "RelativeToolTip": "DonorApplication\\ViewModel\\RecordsViewModel.cs",
-              "ViewState": "AgIAAB8AAAAAAAAAAAAgwC0AAAATAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-10T04:46:39.776Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "RecomendationPage.xaml",
-              "DocumentMoniker": "C:\\Users\\Public\\DonorServiceV2\\DonorApplication\\Pages\\RecomendationPage.xaml",
-              "RelativeDocumentMoniker": "DonorApplication\\Pages\\RecomendationPage.xaml",
-              "ToolTip": "C:\\Users\\Public\\DonorServiceV2\\DonorApplication\\Pages\\RecomendationPage.xaml",
-              "RelativeToolTip": "DonorApplication\\Pages\\RecomendationPage.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-06-10T04:46:35.518Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "RecordPage.xaml",
-              "DocumentMoniker": "C:\\Users\\Public\\DonorServiceV2\\DonorApplication\\Pages\\RecordPage.xaml",
-              "RelativeDocumentMoniker": "DonorApplication\\Pages\\RecordPage.xaml",
-              "ToolTip": "C:\\Users\\Public\\DonorServiceV2\\DonorApplication\\Pages\\RecordPage.xaml",
-              "RelativeToolTip": "DonorApplication\\Pages\\RecordPage.xaml",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAiwBsAAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-06-10T04:39:41.791Z",
+              "WhenOpened": "2025-06-18T18:20:06.473Z",
               "EditorCaption": ""
             }
           ]
