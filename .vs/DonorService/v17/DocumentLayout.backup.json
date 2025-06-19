@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "E:\\VisualStudio\\DonorServiceV2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7BB8FDC4-65F0-421B-8C36-13B36D8904C7}|DonorApplication\\DonorApplication.csproj|e:\\visualstudio\\donorservicev2\\donorapplication\\viewmodel\\editprofileviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7BB8FDC4-65F0-421B-8C36-13B36D8904C7}|DonorApplication\\DonorApplication.csproj|solutionrelative:donorapplication\\viewmodel\\editprofileviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7BB8FDC4-65F0-421B-8C36-13B36D8904C7}|DonorApplication\\DonorApplication.csproj|e:\\visualstudio\\donorservicev2\\donorapplication\\pages\\editprofilepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{7BB8FDC4-65F0-421B-8C36-13B36D8904C7}|DonorApplication\\DonorApplication.csproj|solutionrelative:donorapplication\\pages\\editprofilepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A9B83AFA-179E-47A8-9D29-399E6BE2D10F}|DonorService\\DonorService.csproj|e:\\visualstudio\\donorservicev2\\donorservice\\controllers\\editingprofile\\editingprofilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A9B83AFA-179E-47A8-9D29-399E6BE2D10F}|DonorService\\DonorService.csproj|solutionrelative:donorservice\\controllers\\editingprofile\\editingprofilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A9B83AFA-179E-47A8-9D29-399E6BE2D10F}|DonorService\\DonorService.csproj|e:\\visualstudio\\donorservicev2\\donorservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9B83AFA-179E-47A8-9D29-399E6BE2D10F}|DonorService\\DonorService.csproj|solutionrelative:donorservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -30,28 +30,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "EditingProfileController.cs",
-              "DocumentMoniker": "E:\\VisualStudio\\DonorServiceV2\\DonorService\\Controllers\\EditingProfile\\EditingProfileController.cs",
-              "RelativeDocumentMoniker": "DonorService\\Controllers\\EditingProfile\\EditingProfileController.cs",
-              "ToolTip": "E:\\VisualStudio\\DonorServiceV2\\DonorService\\Controllers\\EditingProfile\\EditingProfileController.cs",
-              "RelativeToolTip": "DonorService\\Controllers\\EditingProfile\\EditingProfileController.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAqwCcAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-18T19:30:36.701Z",
+              "DocumentIndex": 0,
+              "Title": "EditProfilePage.xaml",
+              "DocumentMoniker": "E:\\VisualStudio\\DonorServiceV2\\DonorApplication\\Pages\\EditProfilePage.xaml",
+              "RelativeDocumentMoniker": "DonorApplication\\Pages\\EditProfilePage.xaml",
+              "ToolTip": "E:\\VisualStudio\\DonorServiceV2\\DonorApplication\\Pages\\EditProfilePage.xaml",
+              "RelativeToolTip": "DonorApplication\\Pages\\EditProfilePage.xaml",
+              "ViewState": "AgIAACQAAAAAAAAAAAAUwDwAAABRAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-06-19T05:54:25.065Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "EditProfileViewModel.cs",
-              "DocumentMoniker": "E:\\VisualStudio\\DonorServiceV2\\DonorApplication\\ViewModel\\EditProfileViewModel.cs",
-              "RelativeDocumentMoniker": "DonorApplication\\ViewModel\\EditProfileViewModel.cs",
-              "ToolTip": "E:\\VisualStudio\\DonorServiceV2\\DonorApplication\\ViewModel\\EditProfileViewModel.cs",
-              "RelativeToolTip": "DonorApplication\\ViewModel\\EditProfileViewModel.cs",
-              "ViewState": "AgIAAKIAAAAAAAAAAAAkwLYAAAAUAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\VisualStudio\\DonorServiceV2\\DonorService\\Program.cs",
+              "RelativeDocumentMoniker": "DonorService\\Program.cs",
+              "ToolTip": "E:\\VisualStudio\\DonorServiceV2\\DonorService\\Program.cs",
+              "RelativeToolTip": "DonorService\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-18T19:30:21.255Z",
+              "WhenOpened": "2025-06-19T04:48:30.229Z",
               "EditorCaption": ""
             }
           ]

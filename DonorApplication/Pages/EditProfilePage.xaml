@@ -30,11 +30,42 @@
                     IsEnabled="{Binding IsAuthAcount}" IsVisible="{Binding IsAuthAcount}">
             <VerticalStackLayout Spacing="10" Margin="5" x:Name="ProfileData" HeightRequest="350">
                 <Border BackgroundColor="White" HeightRequest="75" WidthRequest="75">
-                    <base64Control:ImageBase64 Base64Source="{Binding Donor.Base64Image}" Aspect="AspectFill">
-                        <base64Control:ImageBase64.GestureRecognizers>
-                            <TapGestureRecognizer Command="{Binding ChangeIconProfileCommand}"/>
-                        </base64Control:ImageBase64.GestureRecognizers>
-                    </base64Control:ImageBase64>
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="*"/>
+                            <RowDefinition Height="*"/>
+                            <RowDefinition Height="*"/>
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+
+                        <base64Control:ImageBase64 Grid.Row="0" Grid.RowSpan="3" Base64Source="{Binding Donor.Base64Image}" Aspect="AspectFill" Opacity="1">
+                        </base64Control:ImageBase64>
+                        <Image Aspect="AspectFit" Source="changeicon.png" Grid.Row="2">
+                            <VisualStateManager.VisualStateGroups>
+                                <VisualStateGroup x:Name="Custom">
+
+                                    <VisualState x:Name="Normal">
+                                        <VisualState.Setters>
+                                            <Setter Property="Opacity" Value="0.1"/>
+                                        </VisualState.Setters>
+                                    </VisualState>
+
+                                    <VisualState x:Name="PointerOver">
+                                        <VisualState.Setters>
+                                            <Setter Property="Opacity" Value="0.9"/>
+                                        </VisualState.Setters>
+                                    </VisualState>
+
+                                </VisualStateGroup>
+                            </VisualStateManager.VisualStateGroups>
+
+                            <Image.GestureRecognizers>
+                                <TapGestureRecognizer Command="{Binding ChangeIconProfileCommand}"/>
+                            </Image.GestureRecognizers>
+                        </Image>
+                    </Grid>
                     <Border.StrokeShape>
                         <RoundRectangle CornerRadius="99"/>
                     </Border.StrokeShape>
